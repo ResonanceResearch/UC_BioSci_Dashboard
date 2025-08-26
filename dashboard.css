@@ -82,7 +82,8 @@ header {
   height: 48px;    /* adjust size */
   width: auto;
   border-radius: 6px; /* optional rounded corners */
-
+  
+}
 header .sub {
   color: var(--muted);
   font-size: 0.95rem;
