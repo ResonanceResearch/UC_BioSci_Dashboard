@@ -358,27 +358,66 @@
       });
     }
 
-    function drawPublicationList(pubs){
-      const ul = document.getElementById('publications-list');
-      ul.innerHTML = '';
-      // Sort newest first, then by citations desc
-      pubs.sort((a,b) => (b.publication_year - a.publication_year) || (b.cited_by_count - a.cited_by_count));
-      pubs.forEach(p => {
-        const doi = p.doi && /^https?:\/\//i.test(p.doi) ? p.doi : '';
-        const safeTitle = allowItalicsOnly(p.display_name || '');
-        const li = document.createElement('li');
+function drawPublicationList(pubs) {
+  const ul = document.getElementById('publications-list');
+  if (!ul) return;
 
-        const bits = [
-          `<strong>${toInt(p.publication_year)}</strong> - <em>${safeTitle}</em> (${escapeHTML(p.type || '')})`,
-          `[Citations: ${toInt(p.cited_by_count)}]`
-        ];
-        if (doi) bits.push(`<a href="${doi}" target="_blank" rel="noopener">DOI</a>`);
-        if (Number.isFinite(p._fwci)) bits.push(`FWCI: ${p._fwci.toFixed(2)}`);
+  ul.innerHTML = '';
 
-        li.innerHTML = bits.join(' - ');
-        ul.appendChild(li);
-      });
-    }
+  // Guard: no data or empty after filtering
+  if (!Array.isArray(pubs) || pubs.length === 0) {
+    const li = document.createElement('li');
+    li.className = 'muted';
+    li.textContent = 'No publications match the current filters.';
+    ul.appendChild(li);
+    // Optional: update a visible counter if you have one
+    const countEl = document.getElementById('publications-count');
+    if (countEl) countEl.textContent = '0';
+    return;
+  }
+
+  // Sort newest first, then by citations (desc)
+  pubs.sort((a, b) =>
+    (b.publication_year - a.publication_year) ||
+    (b.cited_by_count - a.cited_by_count)
+  );
+
+  const frag = document.createDocumentFragment();
+
+  pubs.forEach(p => {
+    const year = toInt(p.publication_year);
+    const safeTitle = allowItalicsOnly(p.display_name || '');
+    const type = escapeHTML(p.type || '');
+
+    // Normalize DOI field: expect full URL; otherwise omit
+    const doi = (p.doi && /^https?:\/\//i.test(p.doi)) ? p.doi : '';
+
+    // Normalize FWCI to a finite number if present on record (e.g., as string)
+    let fwci = (p && p._fwci != null) ? Number(p._fwci) : NaN;
+    fwci = Number.isFinite(fwci) ? fwci : NaN;
+
+    const li = document.createElement('li');
+
+    // Main line + meta chips
+    li.innerHTML = `
+      <div><strong>${year}</strong> — <em>${safeTitle}</em> <span class="muted">(${type})</span></div>
+      <div class="pub-meta">
+        <span class="chip"><span class="mono">Citations:</span> ${toInt(p.cited_by_count)}</span>
+        ${Number.isFinite(fwci) ? `<span class="chip secondary"><span class="mono">FWCI:</span> ${fwci.toFixed(2)}</span>` : ''}
+        ${doi ? `<a class="chip" href="${doi}" target="_blank" rel="noopener">DOI</a>` : ''}
+      </div>
+    `;
+
+    frag.appendChild(li);
+  });
+
+  ul.appendChild(frag);
+
+  // Optional: update a visible counter if your HTML has one
+  const countEl = document.getElementById('publications-count');
+  if (countEl) countEl.textContent = String(pubs.length);
+}
+
 
     // ============ Text helpers ============
     function escapeHTML(s){
