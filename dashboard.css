@@ -75,7 +75,7 @@ header {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 400px;
+  gap: 200px;
 }
 
 .logo {
