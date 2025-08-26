@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-UCVM_works.py — single-file OpenAlex ETL for UCVM dashboard
+BioSci_works.py — single-file OpenAlex ETL for UCVM dashboard
 
 What this script does
 ---------------------
