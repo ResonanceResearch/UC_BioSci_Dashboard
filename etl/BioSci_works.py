@@ -63,7 +63,7 @@ BACKOFF_BASE = float(os.getenv("OPENALEX_BACKOFF_BASE", "1.6"))
 TIMEOUT = int(os.getenv("OPENALEX_TIMEOUT", "30"))
 RETRIABLE_STATUS = {429, 500, 502, 503, 504}
 HEADERS = {
-    "User-Agent": f"UCVM-ETL (mailto:{MAILTO})",
+    "User-Agent": f"BioSci-ETL (mailto:{MAILTO})",
     "Accept": "application/json",
 }
 
