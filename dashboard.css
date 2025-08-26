@@ -75,11 +75,11 @@ header {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 400px;
 }
 
 .logo {
-  height: 48px;    /* adjust size */
+  height: 96px;    /* adjust size */
   width: auto;
   border-radius: 6px; /* optional rounded corners */
   
