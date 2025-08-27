@@ -233,3 +233,25 @@ select.multi:focus, input:focus {
 
 /* Utility */
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+/* Layout container for Faculty + Publications panels */
+#faculty-publications {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* Make each panel take up half the width on large screens */
+#faculty-publications > section {
+  flex: 1;
+  min-width: 300px; /* prevents collapsing too small */
+}
+
+/* On smaller screens, stack them vertically */
+@media (max-width: 900px) {
+  #faculty-publications {
+    flex-direction: column;
+  }
+}
+

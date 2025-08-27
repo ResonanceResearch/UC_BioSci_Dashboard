@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BioSci Research Dashboard</title>
+  <title>UCVM Research Dashboard</title>
+  <!-- CSS: keep your existing filename; you said you'll add the responsive rules -->
   <link rel="stylesheet" href="dashboard.css">
   <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
   <script src="dashboard.js" defer></script>
@@ -12,10 +13,11 @@
   <header>
     <div class="header-left">
       <img src="logo.png" alt="Logo" class="logo">
-      <h1>BioSci Research Dashboard (Last 5 Years)</h1>
+      <h1>UCVM Research Dashboard (Last 5 Years)</h1>
     </div>
   </header>
 
+  <!-- Filters -->
   <section id="filters" class="card">
     <div class="filter-block">
       <label for="level">Level</label>
@@ -47,33 +49,41 @@
     </div>
     <div class="filter-block wide">
       <label for="topic-search">Topic search</label>
-      <input id="topic-search" type="search" placeholder="Search concepts & subfields…" />
+      <input id="topic-search" type="search" placeholder="Search concepts &amp; subfields…" />
     </div>
     <div class="actions">
       <button id="reset-filters" class="reset">Reset to defaults</button>
     </div>
   </section>
 
+  <!-- Summary/chart -->
   <section id="summary" class="card">
     <div id="pub-chart" class="chart"></div>
     <p id="faculty-count" class="count"></p>
   </section>
 
-  <section id="faculty-table-section" class="card">
-    <h2>Selected Faculty</h2>
-    <table id="faculty-table">
-      <thead>
-        <tr>
-          <th>Name</th><th>H-index</th><th>I10-index</th><th>Publications</th><th>Citations</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </section>
+  <!-- Responsive side-by-side wrapper for Selected Faculty + Publications -->
+  <section id="faculty-publications">
+    <section id="faculty-table-section" class="card">
+      <h2>Selected Faculty</h2>
+      <table id="faculty-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>H-index</th>
+            <th>I10-index</th>
+            <th>Publications</th>
+            <th>Citations</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
 
-  <section id="publications-panel" class="card">
-    <h2>Publications</h2>
-    <ul id="publications-list"></ul>
+    <section id="publications-panel" class="card">
+      <h2>Publications</h2>
+      <ul id="publications-list"></ul>
+    </section>
   </section>
 </body>
 </html>

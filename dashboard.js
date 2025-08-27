@@ -157,10 +157,24 @@
       fillSelect(catSel, uniqueNonEmpty(rosterData.map(r => r.Category || '')));
       fillSelect(apptSel, uniqueNonEmpty(rosterData.map(r => r.Appointment || '')));
 
+      // Default Appointment selection: ONLY Full‑time selected
+      setDefaultAppointmentSelection();
+
       // Research groups across RG1..RG4
       const allRGs = new Set();
       rosterData.forEach(r => r._RGs.forEach(g => allRGs.add(g)));
       fillSelect(rgSel, Array.from(allRGs).sort());
+    }
+
+    // Select only "Full‑time" in the Appointment multi-select, deselect others.
+    // Tolerant to case and optional hyphen/space (e.g., Full time, Full-time).
+    function setDefaultAppointmentSelection(){
+      const sel = document.getElementById('appointment');
+      if (!sel) return;
+      const isFullTime = (s) => /full\s*-?\s*time/i.test(String(s || ''));
+      for (const opt of sel.options) {
+        opt.selected = isFullTime(opt.value) || isFullTime(opt.text);
+      }
     }
 
     function fillSelect(sel, options){
@@ -191,6 +205,8 @@
           const id = btn.getAttribute('data-target');
           const el = document.getElementById(id);
           Array.from(el.options).forEach(o => { o.selected = false; });
+          // Restore default only for Appointment when its Clear is used
+          if (id === 'appointment') setDefaultAppointmentSelection();
           update();
         });
       });
@@ -208,6 +224,9 @@
         document.querySelectorAll('#filters select').forEach(sel => {
           Array.from(sel.options).forEach(o => o.selected = false);
         });
+        // Restore default: only Full‑time selected
+        setDefaultAppointmentSelection();
+
         focusedAuthorID = null;
         focusedAuthorName = '';
         initYearInputs();
