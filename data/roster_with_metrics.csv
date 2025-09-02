@@ -10,7 +10,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Paul, Andrew",andrew.paul1@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5084794761,18.0,25.0,46.0,1870.0
 "Ayyaz, Arshad",arshad.ayyaz@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5069484372,13.0,13.0,29.0,1110.0
 "Balser, Teresa",tcbalser@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5109335726,45.0,71.0,98.0,9736.0
-"Barst, Benjamin",benjamin.barst@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5067480948,18.0,20.0,47.0,1024.0
+"Barst, Benjamin",benjamin.barst@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5067480948,18.0,20.0,47.0,1032.0
 "Bodnar, Tamara",tamara.bodnar@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5010143483,15.0,21.0,50.0,707.0
 "Buret, Andre",aburet@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5082944188,64.0,155.0,298.0,14045.0
 "Burkinshaw, Brianne",brianne.burkinsha1@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5073387012,10.0,11.0,16.0,793.0
@@ -29,7 +29,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Fox, Jeremy",jefox@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5042849572,36.0,58.0,114.0,7450.0
 "Fraser, Marie",frasm@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5080173650,27.0,47.0,165.0,2589.0
 "Galpern, Paul",paul.galpern@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,A5026980878,19.0,30.0,63.0,2357.0
-"Gieg, Lisa",lmgieg@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5067337817,39.0,70.0,121.0,5070.0
+"Gieg, Lisa",lmgieg@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5067337817,39.0,70.0,121.0,5094.0
 "Graham, Cindy",cmgraham@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,a5109244759,2.0,0.0,53.0,13.0
 "Gregory, Ann",ann.gregory@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5040335896,19.0,22.0,53.0,5308.0
 "Habibi, Hamid",habibi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5002421690,45.0,136.0,212.0,6710.0
@@ -57,17 +57,17 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Samuel, Marcus",msamuel@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5000532437,29.0,43.0,78.0,2759.0
 "Shemanko, Carrie Simone",shemanko@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5013092722,19.0,20.0,52.0,1403.0
 "Summers, Mindi",mindi.summers@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,A5005216717,13.0,14.0,33.0,536.0
-"Theodor, Jessica",jtheodor@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5034107669,23.0,35.0,76.0,2760.0
+"Theodor, Jessica",jtheodor@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5034107669,23.0,35.0,77.0,2768.0
 "Tieleman, Peter",tieleman@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5034269087,4.0,2.0,52.0,273.0
 "Vamosi, Jana",jvamosi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5073325578,39.0,58.0,112.0,8949.0
 "Vamosi, Steven",smvamosi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5007215493,30.0,50.0,89.0,3278.0
 "Vijayan, Matt (Mathilakath)",mmvijaya@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5022758375,59.0,151.0,187.0,13814.0
-"Wildering, Willem",wilderin@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,a5067187666,19.0,33.0,40.0,1373.0
+"Wildering, Willem",wilderin@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,a5067187666,19.0,33.0,40.0,1375.0
 "Wrona, Frederick John",frederickjohn.wrona@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5081438881,42.0,88.0,136.0,5493.0
 "Yeaman, Samuel",samuel.yeaman@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,A5091612127,33.0,53.0,114.0,7986.0
 "Zardini Buzatto, Adriana",adriana.zardinibuzat@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,a5082325988,9.0,9.0,22.0,201.0
 "Zaremberg, Vanina",vzarembe@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5061166792,15.0,22.0,75.0,927.0
-"Zimmerly, Steven",zimmerly@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5081415562,30.0,37.0,46.0,4100.0
+"Zimmerly, Steven",zimmerly@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5081415562,30.0,37.0,46.0,4119.0
 "Addicott, John",jaddicot@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Addy, Heather",addy@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Barclay, Robert",barclay@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5033184624,60.0,142.0,191.0,10708.0
