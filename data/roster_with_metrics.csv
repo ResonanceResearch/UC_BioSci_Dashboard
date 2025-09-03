@@ -5,13 +5,13 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Hermann, Petronella (Petra)",hermann@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,a5065477883,17.0,25.0,34.0,737.0
 "Lein, Millerd (Ross)",mrlein@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,a5013565849,20.0,31.0,52.0,1053.0
 "Mee, Jonathan",jamee@ucalgary.ca,Associate,Bio Sci,Research,Adjunct,A5076712876,14.0,15.0,42.0,542.0
-"Moehrenschlager, Axel",amoehren@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5086209639,21.0,39.0,105.0,1623.0
-"Musiani, Marco",mmusiani@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5089209732,37.0,67.0,124.0,6654.0
-"Paul, Andrew",andrew.paul1@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5084794761,18.0,25.0,46.0,1870.0
+"Moehrenschlager, Axel",amoehren@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5086209639,21.0,39.0,105.0,1632.0
+"Musiani, Marco",mmusiani@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5089209732,37.0,67.0,124.0,6669.0
+"Paul, Andrew",andrew.paul1@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5084794761,18.0,25.0,46.0,1874.0
 "Ayyaz, Arshad",arshad.ayyaz@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5069484372,13.0,13.0,29.0,1110.0
 "Balser, Teresa",tcbalser@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5109335726,45.0,71.0,98.0,9736.0
 "Barst, Benjamin",benjamin.barst@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5067480948,18.0,20.0,47.0,1032.0
-"Bodnar, Tamara",tamara.bodnar@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5010143483,15.0,21.0,50.0,707.0
+"Bodnar, Tamara",tamara.bodnar@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5010143483,15.0,21.0,50.0,708.0
 "Buret, Andre",aburet@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5082944188,64.0,155.0,298.0,14045.0
 "Burkinshaw, Brianne",brianne.burkinsha1@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5073387012,10.0,11.0,16.0,793.0
 "Cantin, Ariane",acantin@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,A5089057590,4.0,2.0,12.0,170.0
@@ -23,7 +23,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Engel, Megan",megan.engel@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,a5042282780,6.0,5.0,31.0,178.0
 "Facchini, Peter James",pfacchin@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5020766540,62.0,140.0,201.0,11551.0
 "Finney, Constance",constance.finney@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,A5014665566,18.0,21.0,61.0,2063.0
-"Fitzpatrick, Connor",connor.fitzpatrick@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5049344986,25.0,41.0,108.0,1856.0
+"Fitzpatrick, Connor",connor.fitzpatrick@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5049344986,25.0,41.0,108.0,1864.0
 "Flanagan, Kyla",kyla.flanagan@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,A5002175344,6.0,4.0,10.0,337.0
 "Flynn, Corey",cflynn@ucalgary.ca,Associate,Bio Sci,Teaching,Fulltime,a5113569616,10.0,10.0,13.0,618.0
 "Fox, Jeremy",jefox@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5042849572,36.0,58.0,114.0,7450.0
@@ -34,15 +34,15 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Gregory, Ann",ann.gregory@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5040335896,19.0,22.0,53.0,5308.0
 "Habibi, Hamid",habibi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5002421690,45.0,136.0,212.0,6710.0
 "Haji-Ghassemi, Omid",omid.hajighassemi@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,a5079772694,13.0,14.0,79.0,632.0
-"Hansen, David",dhansen@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5047819225,16.0,27.0,177.0,1077.0
+"Hansen, David",dhansen@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5047819225,16.0,27.0,177.0,1108.0
 "Harrison, Joe",jjharris@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5049499964,40.0,51.0,71.0,8512.0
 "Hubert, Casey",chubert@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5029134801,37.0,75.0,194.0,4610.0
 "Huddleston, William",wrhuddle@ucalgary.ca,Associate,Bio Sci,Teaching,Fulltime,a5077303655,3.0,2.0,7.0,76.0
-"Lebenzon, Jackie",jackie.lebenzon@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5056052208,7.0,6.0,12.0,244.0
-"Lees-Miller, Susan",leesmill@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5035453779,83.0,167.0,303.0,20730.0
+"Lebenzon, Jackie",jackie.lebenzon@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5056052208,7.0,6.0,12.0,254.0
+"Lees-Miller, Susan",leesmill@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5035453779,83.0,167.0,303.0,20743.0
 "Lewis, Ian",ian.lewis2@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,A5080144419,39.0,75.0,156.0,8990.0
 "Lucas, Kelsey",kelsey.lucas@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5004952410,10.0,10.0,2406.0,550.0
-"Menzies, Allyson",allyson.menzies@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5021419374,17.0,22.0,57.0,936.0
+"Menzies, Allyson",allyson.menzies@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5021419374,17.0,22.0,57.0,941.0
 "Moorhead, Gregory",moorhead@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5035368724,41.0,79.0,138.0,7110.0
 "Morck, Douglas Walter",dmorck@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5053621056,35.0,77.0,117.0,6621.0
 "Muench, Douglas",dmuench@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5015394037,29.0,45.0,62.0,3135.0
@@ -53,9 +53,9 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Ro, Dae-Kyun",daekyun.ro@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5027297591,34.0,55.0,74.0,7065.0
 "Robinson, Eve",eve.robinson@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5031130984,11.0,11.0,20.0,220.0
 "Rogers, Sean",srogers@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5045680634,28.0,53.0,120.0,9322.0
-"Ruckstuhl, Kathreen",kruckstu@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5008482024,31.0,71.0,116.0,3934.0
+"Ruckstuhl, Kathreen",kruckstu@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5008482024,31.0,71.0,116.0,3940.0
 "Samuel, Marcus",msamuel@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5000532437,29.0,43.0,78.0,2759.0
-"Shemanko, Carrie Simone",shemanko@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5013092722,19.0,20.0,52.0,1403.0
+"Shemanko, Carrie Simone",shemanko@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5013092722,19.0,20.0,52.0,1406.0
 "Summers, Mindi",mindi.summers@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,A5005216717,13.0,14.0,33.0,536.0
 "Theodor, Jessica",jtheodor@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5034107669,23.0,35.0,77.0,2768.0
 "Tieleman, Peter",tieleman@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5034269087,4.0,2.0,52.0,273.0
@@ -66,7 +66,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Wrona, Frederick John",frederickjohn.wrona@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5081438881,42.0,88.0,136.0,5493.0
 "Yeaman, Samuel",samuel.yeaman@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,A5091612127,33.0,53.0,114.0,7986.0
 "Zardini Buzatto, Adriana",adriana.zardinibuzat@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,a5082325988,9.0,9.0,22.0,201.0
-"Zaremberg, Vanina",vzarembe@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5061166792,15.0,22.0,75.0,927.0
+"Zaremberg, Vanina",vzarembe@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5061166792,15.0,22.0,75.0,932.0
 "Zimmerly, Steven",zimmerly@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5081415562,30.0,37.0,46.0,4119.0
 "Addicott, John",jaddicot@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Addy, Heather",addy@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
@@ -101,10 +101,10 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Storey, Douglas Gordon",storey@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Syme, Douglas",syme@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5012773550,21.0,36.0,59.0,1589.0
 "Thorpe, Trevor Alleyne",tthorpe@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
-"Turner, Raymond J.",turnerr@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5076324446,68.0,239.0,441.0,20752.0
+"Turner, Raymond J.",turnerr@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5076324446,68.0,239.0,442.0,20828.0
 "Vize, Peter",pvize@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5064576180,42.0,76.0,121.0,6319.0
 "Vogel, Hans J.",vogel@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5042190192,100.0,468.0,914.0,44679.0
-"Voordouw, Gerrit",voordouw@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5021145543,68.0,198.0,289.0,13717.0
+"Voordouw, Gerrit",voordouw@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5021145543,68.0,198.0,289.0,13720.0
 "Wilkens, Jerrel L.",wilkens@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 Wong. Sui-Lam,slwong@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Yeung, Edward Chee-Tak",yeung@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
