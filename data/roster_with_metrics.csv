@@ -9,14 +9,14 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Musiani, Marco",mmusiani@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5089209732,37.0,67.0,124.0,6669.0
 "Paul, Andrew",andrew.paul1@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,A5084794761,18.0,25.0,46.0,1874.0
 "Ayyaz, Arshad",arshad.ayyaz@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5069484372,13.0,13.0,29.0,1110.0
-"Balser, Teresa",tcbalser@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5109335726,45.0,71.0,98.0,9736.0
+"Balser, Teresa",tcbalser@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5109335726,45.0,71.0,98.0,9747.0
 "Barst, Benjamin",benjamin.barst@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5067480948,18.0,20.0,47.0,1032.0
 "Bodnar, Tamara",tamara.bodnar@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5010143483,15.0,21.0,50.0,708.0
 "Buret, Andre",aburet@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5082944188,64.0,155.0,298.0,14045.0
 "Burkinshaw, Brianne",brianne.burkinsha1@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5073387012,10.0,11.0,16.0,793.0
 "Cantin, Ariane",acantin@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,A5089057590,4.0,2.0,12.0,170.0
 "Cardou, Francoise",francoise.cardou@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,a5055718766,10.0,10.0,22.0,471.0
-"Chua, Gordon",gchua@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5071220212,24.0,36.0,50.0,6800.0
+"Chua, Gordon",gchua@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5071220212,24.0,36.0,50.0,6802.0
 "Ciborowski, Jan",jan.ciborowski@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5065053670,37.0,82.0,127.0,3923.0
 "Cobb, John",jacobb@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5007729024,23.0,34.0,54.0,2496.0
 "Dunfield, Peter",pfdunfie@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5029718330,54.0,111.0,152.0,11382.0
@@ -26,8 +26,8 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Fitzpatrick, Connor",connor.fitzpatrick@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,A5049344986,25.0,41.0,108.0,1864.0
 "Flanagan, Kyla",kyla.flanagan@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,A5002175344,6.0,4.0,10.0,337.0
 "Flynn, Corey",cflynn@ucalgary.ca,Associate,Bio Sci,Teaching,Fulltime,a5113569616,10.0,10.0,13.0,618.0
-"Fox, Jeremy",jefox@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5042849572,36.0,58.0,114.0,7450.0
-"Fraser, Marie",frasm@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5080173650,27.0,47.0,165.0,2589.0
+"Fox, Jeremy",jefox@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5042849572,36.0,58.0,114.0,7460.0
+"Fraser, Marie",frasm@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5080173650,27.0,47.0,165.0,2591.0
 "Galpern, Paul",paul.galpern@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,A5026980878,19.0,30.0,63.0,2357.0
 "Gieg, Lisa",lmgieg@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5067337817,39.0,70.0,121.0,5094.0
 "Graham, Cindy",cmgraham@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,a5109244759,2.0,0.0,53.0,13.0
@@ -84,7 +84,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,H_index,I10_index,Works_cou
 "Harder, Lawrence",harder@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Huber, Reuben Eugene",huber@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Hynes, Michael",hynes@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5040299789,38.0,59.0,87.0,4623.0
-"Johnson, Edward Arnold",johnsone@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5072804336,78.0,236.0,455.0,21844.0
+"Johnson, Edward Arnold",johnsone@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5072804336,78.0,236.0,455.0,21852.0
 "Kapoor, Manju",mkapoor@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,a5099938280,0.0,0.0,1.0,0.0
 "Laishley, Edward James",elaishle@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
 "Layzell, David",dlayzell@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,,,,,
