@@ -48,7 +48,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Muench, Douglas",dmuench@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5015394037,,Douglas G. Muench,29.0,45.0,62.0,3135.0
 "Munkittrick, Kelly",kelly.munkittrick@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5037722586,https://orcid.org/0000-0003-0863-7922,Kelly R. Munkittrick,49.0,169.0,246.0,8409.0
 "Petersen, Lars",lars.petersen@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,https://openalex.org/A5108618818,,Lars F. Petersen,8.0,8.0,16.0,323.0
-"Polvi, Elizabeth",elizabeth.polvi@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,:a5027504302,,,,,,
+"Polvi, Elizabeth",elizabeth.polvi@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,https://openalex.org/A5027504302,https://orcid.org/0000-0002-7827-826X,Elizabeth J. Polvi,10.0,10.0,21.0,500.0
 "Prenner, Elmar Josef",eprenner@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5080622790,https://orcid.org/0000-0002-4821-2657,Elmar J. Prenner,34.0,79.0,115.0,4882.0
 "Ro, Dae-Kyun",daekyun.ro@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5027297591,https://orcid.org/0000-0003-1288-5347,Dae‐Kyun Ro,34.0,55.0,74.0,7077.0
 "Robinson, Eve",eve.robinson@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,https://openalex.org/A5031130984,https://orcid.org/0000-0003-1142-8347,H. Eve Robinson,11.0,11.0,20.0,220.0
@@ -91,7 +91,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Linton, Larry Ralph",LarryRalph.Linton@ucalgary.ca,Instructor,Bio Sci,Teaching,Emeriti,nan,,,,,,
 "Lohmeier-Vogel, Elke Monika",lohmeier@ucalgary.ca,Instructor,Bio Sci,Teaching,Emeriti,nan,,,,,,
 "McMahon, Brian Robert",mcmahon@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
-"Post, John Robert",jrpost@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5060613378,https://orcid.org/0000-0002-2963-2824,John R. Post,52.0,106.0,145.0,11036.0
+"Post, John Robert",jrpost@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5060613378,https://orcid.org/0000-0002-2963-2824,John R. Post,52.0,106.0,145.0,11056.0
 "Reid, Mary",mreid@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 "Roche, Rodney Sylvester",roche@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 "Rosenberg, Herbert Irving",rosenber@ucalgary.ca,Associate,Bio Sci,Research,Emeriti,https://openalex.org/A5068345890,https://orcid.org/0000-0002-9824-0285,Hans Rosenberg,19.0,26.0,130.0,1584.0
