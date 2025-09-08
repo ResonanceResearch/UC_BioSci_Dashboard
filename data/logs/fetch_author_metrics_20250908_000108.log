@@ -1,0 +1,14 @@
+[2025-09-08 00:01:08,154] INFO: Logging to data/logs/fetch_author_metrics_20250908_000108.log
+[2025-09-08 00:01:31,560] WARNING: Request error: 404 Client Error: NOT FOUND for url: https://api.openalex.org/authors/:a5027504302?select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Corcid%2Csummary_stats; retrying (attempt 1/3)
+[2025-09-08 00:01:32,715] WARNING: Request error: 404 Client Error: NOT FOUND for url: https://api.openalex.org/authors/:a5027504302?select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Corcid%2Csummary_stats; retrying (attempt 2/3)
+[2025-09-08 00:01:34,872] WARNING: Request error: 404 Client Error: NOT FOUND for url: https://api.openalex.org/authors/:a5027504302?select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Corcid%2Csummary_stats; retrying (attempt 3/3)
+[2025-09-08 00:01:38,872] ERROR: Failed after 3 attempts: https://api.openalex.org/authors/:a5027504302
+[2025-09-08 00:02:15,764] WARNING: Request error: 404 Client Error: NOT FOUND for url: https://api.openalex.org/authors/:a5027504302?select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Corcid%2Csummary_stats; retrying (attempt 1/3)
+[2025-09-08 00:02:16,941] WARNING: Request error: 404 Client Error: NOT FOUND for url: https://api.openalex.org/authors/:a5027504302?select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Corcid%2Csummary_stats; retrying (attempt 2/3)
+[2025-09-08 00:02:19,104] WARNING: Request error: 404 Client Error: NOT FOUND for url: https://api.openalex.org/authors/:a5027504302?select=id%2Cdisplay_name%2Cworks_count%2Ccited_by_count%2Corcid%2Csummary_stats; retrying (attempt 3/3)
+[2025-09-08 00:02:23,104] ERROR: Failed after 3 attempts: https://api.openalex.org/authors/:a5027504302
+[2025-09-08 00:02:37,566] INFO: [diff] H_index: 0 rows changed; total delta = 0.0
+[2025-09-08 00:02:37,567] INFO: [diff] I10_index: 0 rows changed; total delta = 0.0
+[2025-09-08 00:02:37,567] INFO: [diff] Works_count: 0 rows changed; total delta = 0.0
+[2025-09-08 00:02:37,568] INFO: [diff] Total_citations: 4 rows changed; total delta = 179.0
+[2025-09-08 00:02:37,571] INFO: [ok] Wrote: data/roster_with_metrics.csv
