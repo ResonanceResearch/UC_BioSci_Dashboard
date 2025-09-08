@@ -48,7 +48,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID
 "Muench, Douglas",dmuench@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5015394037
 "Munkittrick, Kelly",kelly.munkittrick@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5037722586
 "Petersen, Lars",lars.petersen@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5108618818
-"Polvi, Elizabeth",elizabeth.polvi@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,:a5027504302
+"Polvi, Elizabeth",elizabeth.polvi@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5027504302
 "Prenner, Elmar Josef",eprenner@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5080622790
 "Ro, Dae-Kyun",daekyun.ro@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,A5027297591
 "Robinson, Eve",eve.robinson@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,a5031130984
@@ -108,3 +108,4 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID
 "Wilkens, Jerrel L.",wilkens@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,
 Wong. Sui-Lam,slwong@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,
 "Yeung, Edward Chee-Tak",yeung@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,
+
