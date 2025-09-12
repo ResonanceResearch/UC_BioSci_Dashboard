@@ -34,7 +34,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Gregory, Ann",ann.gregory@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5040335896,https://orcid.org/0000-0003-4892-5611,Ann Gregory,19.0,22.0,53.0,5338.0
 "Habibi, Hamid",habibi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5002421690,https://orcid.org/0000-0002-4368-6853,Hamid R. Habibi,45.0,136.0,212.0,6731.0
 "Haji-Ghassemi, Omid",omid.hajighassemi@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5079772694,https://orcid.org/0000-0003-0116-005X,Omid Haji‐Ghassemi,13.0,14.0,79.0,633.0
-"Hansen, David",dhansen@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5047819225,https://orcid.org/0000-0002-9813-3578,Doris K. Hansen,16.0,27.0,177.0,1108.0
+"Hansen, David",dhansen@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5047819225,https://orcid.org/0000-0002-9813-3578,Doris K. Hansen,17.0,27.0,178.0,1112.0
 "Harrison, Joe",jjharris@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5049499964,https://orcid.org/0000-0003-0368-9539,Joe J. Harrison,40.0,51.0,71.0,8529.0
 "Hubert, Casey",chubert@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5029134801,https://orcid.org/0000-0002-8691-8116,Casey R. J. Hubert,38.0,75.0,194.0,4616.0
 "Huddleston, William",wrhuddle@ucalgary.ca,Associate,Bio Sci,Teaching,Fulltime,https://openalex.org/A5077303655,https://orcid.org/0000-0001-5743-3278,William Ryan Huddleston,3.0,2.0,7.0,76.0
@@ -66,7 +66,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Wrona, Frederick John",frederickjohn.wrona@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5081438881,https://orcid.org/0000-0003-1894-351X,Frederick J. Wrona,43.0,88.0,136.0,5502.0
 "Yeaman, Samuel",samuel.yeaman@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,https://openalex.org/A5091612127,https://orcid.org/0000-0002-1706-8699,Sam Yeaman,33.0,53.0,114.0,8000.0
 "Zardini Buzatto, Adriana",adriana.zardinibuzat@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5082325988,https://orcid.org/0000-0001-7977-4102,Adriana Zardini Buzatto,9.0,9.0,23.0,201.0
-"Zaremberg, Vanina",vzarembe@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5061166792,https://orcid.org/0000-0001-7009-2172,Vanina Zaremberg,15.0,22.0,75.0,932.0
+"Zaremberg, Vanina",vzarembe@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5061166792,https://orcid.org/0000-0001-7009-2172,Vanina Zaremberg,15.0,22.0,75.0,935.0
 "Zimmerly, Steven",zimmerly@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5081415562,,Steven Zimmerly,30.0,37.0,46.0,4119.0
 "Addicott, John",jaddicot@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 "Addy, Heather",addy@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
@@ -101,7 +101,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Storey, Douglas Gordon",storey@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 "Syme, Douglas",syme@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5012773550,https://orcid.org/0000-0002-7824-8765,Douglas A. Syme,21.0,36.0,59.0,1589.0
 "Thorpe, Trevor Alleyne",tthorpe@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
-"Turner, Raymond J.",turnerr@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5076324446,https://orcid.org/0000-0002-9263-0776,Raymond J. Turner,68.0,239.0,442.0,20828.0
+"Turner, Raymond J.",turnerr@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5076324446,https://orcid.org/0000-0002-9263-0776,Raymond J. Turner,68.0,239.0,442.0,20864.0
 "Vize, Peter",pvize@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5064576180,https://orcid.org/0000-0001-8026-0424,Peter D. Vize,42.0,76.0,121.0,6335.0
 "Vogel, Hans J.",vogel@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5042190192,https://orcid.org/0000-0003-2404-9485,Hans J. Vogel,100.0,468.0,914.0,44806.0
 "Voordouw, Gerrit",voordouw@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5021145543,https://orcid.org/0000-0002-6192-9150,Gerrit Voordouw,68.0,198.0,289.0,13720.0
