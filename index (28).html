@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UCVM Research Dashboard</title>
+  <!-- CSS: keep your existing filename; you said you'll add the responsive rules -->
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js" defer></script>
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1>UCVM Research Dashboard (Last 5 Years)</h1>
+    </div>
+  </header>
+
+  <!-- Filters -->
+  <section id="filters" class="card">
+    <div class="filter-block">
+      <label for="level">Level</label>
+      <select id="level" class="multi" multiple></select>
+      <button class="clear-btn" data-target="level" title="Clear Level">Clear</button>
+    </div>
+    <div class="filter-block">
+      <label for="category">Category</label>
+      <select id="category" class="multi" multiple></select>
+      <button class="clear-btn" data-target="category" title="Clear Category">Clear</button>
+    </div>
+    <div class="filter-block">
+      <label for="appointment">Appointment</label>
+      <select id="appointment" class="multi" multiple></select>
+      <button class="clear-btn" data-target="appointment" title="Clear Appointment">Clear</button>
+    </div>
+    <div class="filter-block">
+      <label for="research-group">Research Group</label>
+      <select id="research-group" class="multi" multiple></select>
+      <button class="clear-btn" data-target="research-group" title="Clear Research Group">Clear</button>
+    </div>
+    <div class="filter-block year-range">
+      <label>Years</label>
+      <div class="year-inputs">
+        <input id="year-min" type="number" placeholder="Min" />
+        <span>–</span>
+        <input id="year-max" type="number" placeholder="Max" />
+      </div>
+    </div>
+    <div class="filter-block wide">
+      <label for="topic-search">Topic search</label>
+      <input id="topic-search" type="search" placeholder="Search concepts &amp; subfields…" />
+    </div>
+    <div class="actions">
+      <button id="reset-filters" class="reset">Reset to defaults</button>
+    </div>
+  </section>
+
+  <!-- Summary/chart -->
+<section id="charts-row" class="card charts-grid">
+  <!-- 1: Publications by Year -->
+  <div class="chart-card">
+    <h2>Publications by Year</h2>
+    <div id="pub-chart" class="chart"></div>
+    <p id="faculty-count" class="count"></p>
+  </div>
+
+  <!-- 2: Co-authorship network -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>Co-authorship network (filtered selection)</h2>
+      <div id="network-meta" class="count"></div>
+    </div>
+    <div id="coauthor-network" class="chart network-chart"></div>
+    <details id="pairs-collapse" class="collapse">
+      <summary>Author pairs (click a row to see papers)</summary>
+      <div id="pair-detail" class="muted" style="margin-top:8px;"></div>
+      <table id="coauthor-table">
+        <thead><tr><th>Author A</th><th>Author B</th><th># joint pubs</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </details>
+  </div>
+
+  <!-- 3: Word Cloud -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>Word Cloud</h2>
+      <div id="wordcloud-controls" class="controls">
+        <!-- Source toggle -->
+        <div class="toggle">
+          <label><input type="radio" name="wc-source" value="concepts" checked> Concepts</label>
+          <label><input type="radio" name="wc-source" value="topics"> Topics</label>
+        </div>
+  
+        <!-- Mode toggle (new) -->
+        <div class="toggle" style="margin-left:8px">
+          <label>Mode:</label>
+          <label><input type="radio" name="wc-mode" value="local" checked> Zoom in</label>
+          <label><input type="radio" name="wc-mode" value="global"> Global search</label>
+        </div>
+  
+        <!-- Top-N control -->
+        <label class="topn">
+          Top N
+          <input id="wc-topn" type="number" min="10" max="100" step="10" value="100" />
+        </label>
+      </div>
+    </div>
+  
+    <div id="wordcloud" class="chart wordcloud"></div>
+  </div>
+
+
+  <!-- 4: International Collaboration Map -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>International collaborations</h2>
+      <div id="intl-meta" class="count"></div>
+    </div>
+    <div id="intl-map" class="chart"></div>
+    <details id="intl-detail" class="collapse" style="margin-top:8px">
+      <summary>Country details</summary>
+      <div id="intl-detail-body" class="muted" style="margin-top:8px;"></div>
+    </details>
+  </div>
+</section>
+
+
+
+  <!-- Responsive side-by-side wrapper for Selected Faculty + Publications -->
+  <section id="faculty-publications">
+    <section id="faculty-table-section" class="card">
+      <h2>Selected Faculty</h2>
+      <table id="faculty-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>H-index</th>
+            <th>I10-index</th>
+            <th>Publications</th>
+            <th>Citations</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    
+    <section id="publications-panel" class="card">
+      <div class="panel-head">
+        <h2>Publications</h2>
+        <button id="export-selection" class="btn export" title="Export current selection">
+          Export current selection
+        </button>
+        </div>
+        <ul id="publications-list"></ul>
+    </section>
+
+  </section>
+</body>
+</html>
