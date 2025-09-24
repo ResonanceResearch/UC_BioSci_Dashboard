@@ -1,0 +1,76 @@
+name: Nightly ETL
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '39 6 * * *'  # Runs every day at 00:39 Calgary time during MDT (UTC-6). In MST (UTC-7), this is 23:39 previous day.
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4        # v4 is fine; v3 also works
+        with:
+          persist-credentials: true
+          fetch-depth: 0                 # allows rebase if needed
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install requests openpyxl pandas
+
+      - name: Ensure logs dir is created and tracked
+        run: |
+          mkdir -p data/logs
+          touch data/logs/.gitkeep
+          
+      - name: Show log files
+        run: |
+          echo "Log directory contents:"
+          ls -lh data/logs/
+
+      - name: Run ETL scripts
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}   # add this secret in your repo settings
+        run: |
+          set -Eeuo pipefail
+          python -u etl/fetch_author_metrics.py \
+            --input data/full_time_faculty.csv \
+            --output data/roster_with_metrics.csv \
+            --email "${CONTACT_EMAIL}" \
+            --log-diffs
+          python -u etl/UCVM_works.py \
+            --input data/roster_with_metrics.csv \
+            --output data/openalex_all_authors_last5y_key_fields_dedup.csv 
+         
+
+      - name: Show latest ETL log
+        run: |
+          ls -lt data/logs | head -n 3
+          latest_log=$(ls -1t data/logs/*.log | head -n 1 || echo "")
+          if [ -n "$latest_log" ]; then
+            echo "---- $latest_log ----"
+            tail -n 200 "$latest_log"
+          else
+            echo "No log found"
+          fi
+  
+      - name: Commit and push updates (logs + csv)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git status -s
+          # Stage ALL changes, including deletions and renames
+          git add -A
+          git commit -m "Nightly data update (logs + csv) [skip ci]" || echo "No changes to commit"
+          # If another job/commit raced us, rebase then push
+          git pull --rebase || true
+          git push || echo "Nothing to push"
+      
