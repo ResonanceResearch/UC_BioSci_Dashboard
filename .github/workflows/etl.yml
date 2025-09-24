@@ -46,7 +46,7 @@ jobs:
             --output data/roster_with_metrics.csv \
             --email "${CONTACT_EMAIL}" \
             --log-diffs
-          python -u etl/UCVM_works.py \
+          python -u etl/UC_BioSci_works.py \
             --input data/roster_with_metrics.csv \
             --output data/openalex_all_authors_last5y_key_fields_dedup.csv 
          
