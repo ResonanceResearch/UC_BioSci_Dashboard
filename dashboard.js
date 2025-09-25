@@ -1643,24 +1643,6 @@ function drawCoauthorNetwork(graph){
   const outlineColors = graph.nodes.map(n => outlineForLevel(n.level).color);
   const outlineWidths = graph.nodes.map(n => outlineForLevel(n.level).width);
 
-  // --- Node FILL colors (independent of Level ring) ---
-  const fallbackPalette = ['#6366f1','#ef4444','#06b6d4','#f97316','#22c55e',
-                           '#a855f7','#eab308','#14b8a6','#f43f5e','#10b981'];
-  const hashIdx = (s) => [...String(s ?? '')].reduce((a,c)=>a+c.charCodeAt(0),0);
-  
-  // Use any existing node color if you have one; otherwise assign from palette
-  const fillColorsRaw = graph.nodes.map((n, i) =>
-    n.fillColor || n.color || n.groupColor ||
-    fallbackPalette[ hashIdx(n.id ?? i) % fallbackPalette.length ]
-  );
-  
-  // Ensure fill != ring color for visibility (if accidentally same, rotate palette)
-  const fillColors = fillColorsRaw.map((c,i) => {
-    const ring = (outlineColors[i] || '').toLowerCase();
-    if (c && c.toLowerCase() !== ring) return c;
-    const j = (fallbackPalette.indexOf(c) + 1 + i) % fallbackPalette.length;
-    return fallbackPalette[j];
-  });  
   
   // Nodes
   const nodeTrace = {
@@ -1675,7 +1657,7 @@ function drawCoauthorNetwork(graph){
     cliponaxis: false, // allow labels to slightly extend past axes
     marker: {
       size: size,
-      color: fillColors, // keep interior white for contrast
+      color: '#8081d9', // keep interior white for contrast
       line: { width: outlineWidths, color: outlineColors } // per-node arrays
     },
     name: 'Authors',
