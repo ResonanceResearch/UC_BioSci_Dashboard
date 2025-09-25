@@ -1674,7 +1674,7 @@ function drawCoauthorNetwork(graph){
     type: 'scatter', mode: 'markers',
     x: [null], y: [null],
     name: 'Assistant',
-    marker: { size: 14, color: 'rgba(255,255,255,1)', line: { color: '#3b82f6', width: 2 } },
+    marker: { size: 14, color: '#8081d9', line: { color: '#3fccc7', width: 2 } },
     showlegend: true,
     hoverinfo: 'skip'
   };
@@ -1682,7 +1682,7 @@ function drawCoauthorNetwork(graph){
     type: 'scatter', mode: 'markers',
     x: [null], y: [null],
     name: 'Associate',
-    marker: { size: 14, color: 'rgba(255,255,255,1)', line: { color: '#f59e0b', width: 3 } },
+    marker: { size: 14, color: '#8081d9', line: { color: '#1c35a3', width: 3 } },
     showlegend: true,
     hoverinfo: 'skip'
   };
@@ -1690,7 +1690,7 @@ function drawCoauthorNetwork(graph){
     type: 'scatter', mode: 'markers',
     x: [null], y: [null],
     name: 'Professor',
-    marker: { size: 14, color: 'rgba(255,255,255,1)', line: { color: '#10b981', width: 4 } },
+    marker: { size: 14, color: '#8081d9', line: { color: '#5d0f8a', width: 5 } },
     showlegend: true,
     hoverinfo: 'skip'
   };
