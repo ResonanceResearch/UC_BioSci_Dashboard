@@ -67,10 +67,10 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Yeaman, Samuel",samuel.yeaman@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,https://openalex.org/A5091612127,https://orcid.org/0000-0002-1706-8699,Sam Yeaman,33.0,53.0,114.0,8008.0
 "Zardini Buzatto, Adriana",adriana.zardinibuzat@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5082325988,https://orcid.org/0000-0001-7977-4102,Adriana Zardini Buzatto,9.0,9.0,23.0,202.0
 "Zaremberg, Vanina",vzarembe@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5061166792,https://orcid.org/0000-0001-7009-2172,Vanina Zaremberg,15.0,23.0,75.0,936.0
-"Zimmerly, Steven",zimmerly@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,a5081415562,,,,,,
+"Zimmerly, Steven",zimmerly@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5081415562,,Steven Zimmerly,30.0,37.0,46.0,4120.0
 "Addicott, John",jaddicot@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 "Addy, Heather",addy@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
-"Barclay, Robert",barclay@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,A5033184624,0000-0001-6555-8425,,,,,
+"Barclay, Robert",barclay@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5033184624,https://orcid.org/0000-0001-6555-8425,Robert M. R. Barclay,61.0,142.0,192.0,10721.0
 "Bentley, Michael Martin",bentley@ucalgary.ca,Associate,Bio Sci,Research,Emeriti,nan,,,,,,
 "Bourne, George Bernard",bourne@ucalgary.ca,Associate,Bio Sci,Research,Emeriti,nan,,,,,,
 "Cavey, Michael John",mcavey@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
