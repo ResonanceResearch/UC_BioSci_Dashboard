@@ -28,14 +28,14 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Flynn, Corey",cflynn@ucalgary.ca,Associate,Bio Sci,Teaching,Fulltime,https://openalex.org/A5113569616,,Corey Flynn,10.0,10.0,13.0,619.0
 "Fox, Jeremy",jefox@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5042849572,https://orcid.org/0000-0002-3432-5247,Jeremy W. Fox,36.0,59.0,114.0,7475.0
 "Fraser, Marie",frasm@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5080173650,https://orcid.org/0000-0001-8501-1494,M.E. Fraser,27.0,47.0,165.0,2596.0
-"Galpern, Paul",paul.galpern@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,https://openalex.org/A5026980878,https://orcid.org/0000-0003-0099-3981,Paul Galpern,19.0,30.0,63.0,2369.0
+"Galpern, Paul",paul.galpern@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,https://openalex.org/A5026980878,https://orcid.org/0000-0003-0099-3981,Paul Galpern,19.0,30.0,63.0,2371.0
 "Gieg, Lisa",lmgieg@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5067337817,https://orcid.org/0000-0001-6110-7803,Lisa M. Gieg,39.0,71.0,121.0,5108.0
 "Graham, Cindy",cmgraham@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,https://openalex.org/A5109244759,,Cindy Graham,2.0,0.0,53.0,13.0
-"Gregory, Ann",ann.gregory@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5040335896,https://orcid.org/0000-0003-4892-5611,Ann Gregory,19.0,22.0,53.0,5350.0
+"Gregory, Ann",ann.gregory@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5040335896,https://orcid.org/0000-0003-4892-5611,Ann Gregory,19.0,22.0,53.0,5369.0
 "Habibi, Hamid",habibi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5002421690,https://orcid.org/0000-0002-4368-6853,Hamid R. Habibi,45.0,136.0,212.0,6736.0
 "Haji-Ghassemi, Omid",omid.hajighassemi@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5079772694,https://orcid.org/0000-0003-0116-005X,Omid Haji‐Ghassemi,13.0,14.0,80.0,637.0
 "Hansen, David",dhansen@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5047819225,https://orcid.org/0000-0002-9813-3578,Doris K. Hansen,17.0,29.0,178.0,1122.0
-"Harrison, Joe",jjharris@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5049499964,https://orcid.org/0000-0003-0368-9539,Joe J. Harrison,40.0,51.0,71.0,8557.0
+"Harrison, Joe",jjharris@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5049499964,https://orcid.org/0000-0003-0368-9539,Joe J. Harrison,40.0,51.0,71.0,8564.0
 "Hubert, Casey",chubert@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5029134801,https://orcid.org/0000-0002-8691-8116,Casey R. J. Hubert,38.0,76.0,194.0,4622.0
 "Huddleston, William",wrhuddle@ucalgary.ca,Associate,Bio Sci,Teaching,Fulltime,https://openalex.org/A5077303655,https://orcid.org/0000-0001-5743-3278,William Ryan Huddleston,3.0,2.0,7.0,76.0
 "Lebenzon, Jackie",jackie.lebenzon@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5056052208,https://orcid.org/0000-0002-4852-7931,Jacqueline E. Lebenzon,7.0,6.0,12.0,254.0
@@ -58,10 +58,10 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Shemanko, Carrie Simone",shemanko@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5013092722,https://orcid.org/0000-0002-5260-6210,Carrie S. Shemanko,19.0,20.0,52.0,1409.0
 "Summers, Mindi",mindi.summers@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,https://openalex.org/A5005216717,https://orcid.org/0000-0002-1703-4464,Mindi M. Summers,13.0,14.0,34.0,539.0
 "Theodor, Jessica",jtheodor@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5034107669,https://orcid.org/0000-0002-5159-7041,Jessica M. Theodor,23.0,35.0,80.0,2776.0
-"Tieleman, Peter",tieleman@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5034269087,,Peter Tieleman,4.0,2.0,52.0,273.0
+"Tieleman, Peter",tieleman@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5034269087,,Peter Tieleman,4.0,2.0,52.0,274.0
 "Vamosi, Jana",jvamosi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5073325578,https://orcid.org/0000-0002-2376-0729,Jana C. Vamosi,39.0,58.0,112.0,8999.0
 "Vamosi, Steven",smvamosi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5007215493,https://orcid.org/0000-0003-3903-5000,Steven M. Vamosi,30.0,50.0,89.0,3282.0
-"Vijayan, Matt (Mathilakath)",mmvijaya@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5022758375,https://orcid.org/0000-0002-4300-1965,Mathilakath M. Vijayan,59.0,152.0,187.0,13862.0
+"Vijayan, Matt (Mathilakath)",mmvijaya@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5022758375,https://orcid.org/0000-0002-4300-1965,Mathilakath M. Vijayan,59.0,152.0,188.0,13871.0
 "Wildering, Willem",wilderin@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,https://openalex.org/A5067187666,https://orcid.org/0000-0001-9120-5930,Willem C. Wildering,19.0,33.0,40.0,1376.0
 "Wrona, Frederick John",frederickjohn.wrona@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5081438881,https://orcid.org/0000-0003-1894-351X,Frederick J. Wrona,43.0,88.0,136.0,5504.0
 "Yeaman, Samuel",samuel.yeaman@ucalgary.ca,Associate,Bio Sci,Research,Fulltime,https://openalex.org/A5091612127,https://orcid.org/0000-0002-1706-8699,Sam Yeaman,33.0,53.0,114.0,8008.0
@@ -102,8 +102,8 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Syme, Douglas",syme@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5012773550,https://orcid.org/0000-0002-7824-8765,Douglas A. Syme,21.0,36.0,60.0,1589.0
 "Thorpe, Trevor Alleyne",tthorpe@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 "Turner, Raymond J.",turnerr@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5076324446,https://orcid.org/0000-0002-9263-0776,Raymond J. Turner,68.0,239.0,443.0,20888.0
-"Vize, Peter",pvize@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5064576180,https://orcid.org/0000-0001-8026-0424,Peter D. Vize,42.0,76.0,121.0,6339.0
-"Vogel, Hans J.",vogel@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5042190192,https://orcid.org/0000-0003-2404-9485,Hans J. Vogel,100.0,470.0,915.0,44849.0
+"Vize, Peter",pvize@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5064576180,https://orcid.org/0000-0001-8026-0424,Peter D. Vize,42.0,76.0,121.0,6344.0
+"Vogel, Hans J.",vogel@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5042190192,https://orcid.org/0000-0003-2404-9485,Hans J. Vogel,100.0,470.0,915.0,44897.0
 "Voordouw, Gerrit",voordouw@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,https://openalex.org/A5021145543,https://orcid.org/0000-0002-6192-9150,Gerrit Voordouw,69.0,198.0,289.0,13732.0
 "Wilkens, Jerrel L.",wilkens@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
 Wong. Sui-Lam,slwong@ucalgary.ca,Professor,Bio Sci,Research,Emeriti,nan,,,,,,
