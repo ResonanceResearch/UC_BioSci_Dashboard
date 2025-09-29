@@ -952,49 +952,51 @@
         rotateRatio: 0,              // NO rotation
         drawOutOfBound: false,
         backgroundColor: 'transparent',
+      
         click: (item) => {
           const term = item && item[0];
           if (!term) return;
-        
-          // Are we zooming within the current selection or launching a global search?
+      
           const mode = document.querySelector('input[name="wc-mode"]:checked')?.value || 'local';
           const toAdd = (/\s/.test(term)) ? `"${term}"` : term;
-        
+      
           if (mode === 'local') {
-            // Existing behavior: append term to Topic search and keep all current filters
+            // Zoom in: append term; keep all filters
             const input = document.getElementById('topic-search');
             if (!input) return;
             const val = (input.value || '').trim();
             input.value = val ? (val + ' ' + toAdd) : toAdd;
-            update();  // re-run with current selection (narrower cloud)
+            update();
             return;
           }
-        
-          // NEW behavior: "Global search"
-          // Reset filters to defaults, clear focused author, reset years & types,
-          // then replace Topic search with ONLY the clicked term and re-run.
+      
+          // Global Search:
+          // - Replace topic query with ONLY the clicked term
+          // - RESET years to defaults
+          // - CLEAR selected faculty (focused author)
+          // - KEEP all other filters (RG/Level/Category/Appointment) and legend/type visibility
           try {
-            // Clear multi-selects
-            document.querySelectorAll('#filters select').forEach(sel => {
-              Array.from(sel.options).forEach(o => o.selected = false);
-            });
-        
-            // Default Appointment back to Full-time (your existing default)
-            setDefaultAppointmentSelection?.();
-        
-            // Clear focus and years; restore default publication types
-            focusedAuthorID = null;
-            focusedAuthorName = '';
-            initYearInputs?.();
-            activeTypes = new Set(DEFAULT_TYPE_SET);
-        
-            // Replace the topic query with the single clicked term
             const input = document.getElementById('topic-search');
             if (input) input.value = toAdd;
-        
-            update();  // rebuild from full repo with the new single-term query
-          } catch (_) {
-            // Fallback: if anything goes wrong, behave like local zoom
+      
+            // Reset years only
+            if (typeof initYearInputs === 'function') initYearInputs();
+      
+            // Reset focused author (selected faculty)
+            if (typeof clearFocusedAuthor === 'function') {
+              clearFocusedAuthor(); // if you have a helper that also syncs UI
+            } else {
+              // fall back to clearing the focus variables
+              if (typeof focusedAuthorID !== 'undefined') focusedAuthorID = null;
+              if (typeof focusedAuthorName !== 'undefined') focusedAuthorName = '';
+            }
+      
+            // Do NOT clear RG/Level/Category/Appointment selects
+            // Do NOT reset activeTypes unless you explicitly want to
+            update();
+            return;
+          } catch {
+            // Fallback: behave like local zoom
             const input = document.getElementById('topic-search');
             if (!input) return;
             const val = (input.value || '').trim();
@@ -1002,12 +1004,11 @@
             update();
           }
         },
-
+      
         hover: (item) => {
           container.title = item ? `${item[0]} — ${item[1]} pubs` : '';
         }
       });
-    
       _wc_lastPubs = pubs.slice();
     }, 150);
 
