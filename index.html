@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UCVM Research Dashboard</title>
+  <!-- CSS: keep your existing filename; you said you'll add the responsive rules -->
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="icon" href="logo.png">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js" defer></script>
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1>UCVM Research Dashboard (Last 5 Years)</h1>
+    </div>
+  </header>
+
+  <!-- Filters -->
+  <section id="filters" class="card">
+    <div class="filter-block">
+      <label for="level">Level <span class="info" title="Academic Level. Select/Deselect one or more by Cmd+Click (Mac) or Ctr+Click (Windows).">i</span></label>
+      <select id="level" class="multi" multiple></select>
+      <button class="clear-btn" data-target="level" title="Clear Level">Clear</button>
+    </div>
+    <div class="filter-block">
+      <label for="category">Category <span class="info" title="Research Appointment Category. Select/Deselect one or more by Cmd+Click (Mac) or Ctr+Click (Windows).">i</span></label>
+      <select id="category" class="multi" multiple></select>
+      <button class="clear-btn" data-target="category" title="Clear Category">Clear</button>
+    </div>
+    <div class="filter-block">
+      <label for="appointment">Appointment <span class="info" title="Full time or other (adjunct, emeriti, former). Select/Deselect one or more by Cmd+Click (Mac) or Ctr+Click (Windows).">i</span></label>
+      <select id="appointment" class="multi" multiple></select>
+      <button class="clear-btn" data-target="appointment" title="Clear Appointment">Clear</button>
+    </div>
+    <div class="filter-block">
+      <label for="research-group">Research Group <span class="info" title="Select/Deselect one or more by Cmd+Click (Mac) or Ctr+Click (Windows).">i</span></label>
+      <select id="research-group" class="multi" multiple></select>
+      <button class="clear-btn" data-target="research-group" title="Clear Research Group">Clear</button>
+    </div>
+    <div class="filter-block year-range">
+      <label>Years <span class="info" title="Select window in last 5 years. No data before default start date.">i</span></label>
+      <div class="year-inputs">
+        <input id="year-min" type="number" placeholder="Min" />
+        <span>–</span>
+        <input id="year-max" type="number" placeholder="Max" />
+      </div>
+    </div>
+    <div class="filter-block wide">
+      <label for="topic-search">Topic search <span class="info" title="Search limited to active selection.">i</span></label>
+      <input id="topic-search" type="search" placeholder="Search concepts &amp; subfields…" />
+    </div>
+    <div class="actions">
+      <button id="reset-filters" class="reset">Reset to defaults</button>
+    </div>
+  </section>
+
+  <!-- Summary/chart -->
+<section id="charts-row" class="card charts-grid">
+  <!-- 1: Publications by Year -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>Publications by Year</h2>
+      <div class="btn-group">
+        <button id="export-pub-chart-png" class="btn" title="Export PNG">PNG</button>
+        <button id="export-pub-chart-svg" class="btn" title="Export SVG (vector)">SVG</button>
+        <button id="export-pub-chart-html" class="btn" title="Export interactive HTML">HTML</button>
+      </div>
+    </div>
+    <div id="pub-chart" class="chart"></div>
+    <p id="faculty-count" class="count"></p>
+  </div>
+
+  <!-- 2: Co-authorship network -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>Co-authorship network (filtered)</h2>
+      <div class="btn-group">
+        <button id="export-network-png" class="btn" title="Export PNG">PNG</button>
+        <button id="export-network-svg" class="btn" title="Export SVG (vector)">SVG</button>
+        <button id="export-network-html" class="btn" title="Export interactive HTML">HTML</button>
+      </div>
+    </div>
+    <div id="network-meta" class="count"></div>
+    <div id="coauthor-network" class="chart network-chart"></div>
+    <details id="pairs-collapse" class="collapse">
+      <summary>Author pairs (click a row to see papers)</summary>
+      <div id="pair-detail" class="muted" style="margin-top:8px;"></div>
+      <table id="coauthor-table">
+        <thead><tr><th>Author A</th><th>Author B</th><th># joint pubs</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </details>
+  </div>
+
+  <!-- 3: Word Cloud -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>Word Cloud</h2>
+      <div class="btn-group">
+        <button id="refresh-wordcloud" class="btn" title="Recompute & redraw the word cloud">Refresh</button>
+        <button id="export-wordcloud-html" class="btn" title="Export interactive HTML (rebuilds word list)">HTML</button>
+      </div>
+      <div id="wordcloud-controls" class="controls">
+        <!-- Tags toggle -->
+        <div class="toggle">
+          <label>
+            Tags
+            <span class="info" title="Derived from title, abstract and journal, concepts are a large, fine-grained legacy taxonomy (~65k, linked to Wikidata), while Topics are a smaller, curated set (~4.5k) with clear domain/field hierarchy, now the preferred classification system of publications.">i</span>
+          </label>
+          <label><input type="radio" name="wc-source" value="concepts" checked> Concepts</label>
+          <label><input type="radio" name="wc-source" value="topics"> Topics</label>
+        </div>
+    
+        <!-- Mode toggle -->
+        <div class="toggle" style="margin-left:8px">
+          <label>
+            Mode
+            <span class="info" title="Select to drill down with every click on a concept/topic in the word cloud, or rather select the word to perform search through the entire collection of publications">i</span>
+          </label>
+          <label><input type="radio" name="wc-mode" value="local" checked> Zoom in</label>
+          <label><input type="radio" name="wc-mode" value="global"> Global search</label>
+        </div>
+      </div>
+    </div>
+
+  
+    <div id="wordcloud" class="chart wordcloud"></div>
+  </div>
+
+
+  <!-- 4: International Collaboration Map -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>International collaborations</h2>
+      <div class="btn-group">
+        <button id="export-intl-png" class="btn" title="Export PNG">PNG</button>
+        <button id="export-intl-svg" class="btn" title="Export SVG (vector)">SVG</button>
+        <button id="export-intl-html" class="btn" title="Export interactive HTML">HTML</button>
+      </div>
+    </div>
+    <div id="intl-meta" class="count"></div>
+    <div id="intl-map" class="chart"></div>
+    <details id="intl-detail" class="collapse" style="margin-top:8px">
+      <summary>Country details</summary>
+      <div id="intl-detail-body" class="muted" style="margin-top:8px;"></div>
+    </details>
+  </div>
+
+
+  <!-- 5: Author–topic PCA (Jaccard) -->
+  <div class="chart-card">
+    <div class="panel-head">
+      <h2>Author–topic PCA (Jaccard)</h2>
+      <div class="btn-group">
+        <button id="export-pca-png" class="btn" title="Export PNG">PNG</button>
+        <button id="export-pca-svg" class="btn" title="Export SVG (vector)">SVG</button>
+        <button id="export-pca-html" class="btn" title="Export interactive HTML">HTML</button>
+      </div>
+    </div>
+    <div id="author-topic-pca" class="chart"></div>
+    <p id="pca-meta" class="count"></p>
+  </div>
+
+  <!-- 6: Top partner institutions (ROR) -->
+    <div class="chart-card" id="top-ror-panel">
+      <div class="panel-head">
+        <h2>Top partner institutions (ROR)</h2>
+        <div class="btn-group">
+          <button id="export-ror-png" class="btn" title="Export PNG">PNG</button>
+          <button id="export-ror-svg" class="btn" title="Export SVG (vector)">SVG</button>
+          <button id="export-ror-html" class="btn" title="Export interactive HTML">HTML</button>
+        </div>
+      </div>
+      <div id="top-ror" class="chart"></div>
+      <p id="ror-meta" class="count"></p>
+    </div>
+
+</section>
+  
+  <!-- Responsive side-by-side wrapper for Selected Faculty + Publications -->
+  <section id="faculty-publications">
+    <section id="faculty-table-section" class="card">
+
+      <h2>
+        Selected Faculty <span id="selected-faculty-count" class="muted"></span>
+        <button id="jump-to-filters" class="btn btn-small">to Filters</button>
+      </h2>
+      <table id="faculty-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>H-index</th>
+            <th>I10-index</th>
+            <th>Publications</th>
+            <th>Citations</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    
+    <section id="publications-panel" class="card">
+      <div class="panel-head">
+        <h2>Publications</h2>
+        <button id="export-selection" class="btn" title="Export current selection">
+          Export current selection
+        </button>
+        </div>
+        <ul id="publications-list"></ul>
+    </section>
+
+  </section>
+</body>
+</html>
