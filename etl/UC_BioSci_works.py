@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-UCVM_works.py — single-file OpenAlex ETL for UCVM dashboard
+UC_BioSci_works.py — single-file OpenAlex ETL for UC_BioSci dashboard
 
 What this script does
 ---------------------
@@ -14,7 +14,7 @@ What this script does
 - Logs to both file and console so GitHub Actions shows useful details.
 
 Usage (as in your workflow):
-    python etl/UCVM_works.py \
+    python etl/UC_BioSci_works.py \
         --input data/roster_with_metrics.csv \
         --output data/openalex_all_authors_last5y_key_fields_dedup.csv
 
@@ -45,7 +45,7 @@ from pandas import json_normalize
 # ----------------------------
 # CLI
 # ----------------------------
-parser = argparse.ArgumentParser(description="UCVM OpenAlex ETL (single-file)")
+parser = argparse.ArgumentParser(description="UC_BioSci OpenAlex ETL (single-file)")
 parser.add_argument("--input", "-i", required=True, help="Path to input faculty roster CSV")
 parser.add_argument("--output", "-o", required=True, help="Path to deduplicated last-5-years output CSV")
 args = parser.parse_args()
@@ -65,7 +65,7 @@ BACKOFF_BASE = float(os.getenv("OPENALEX_BACKOFF_BASE", "1.6"))
 TIMEOUT = int(os.getenv("OPENALEX_TIMEOUT", "30"))
 RETRIABLE_STATUS = {429, 500, 502, 503, 504}
 HEADERS = {
-    "User-Agent": f"UCVM-ETL (mailto:{MAILTO})",
+    "User-Agent": f"UC_BioSci-ETL (mailto:{MAILTO})",
     "Accept": "application/json",
 }
 
