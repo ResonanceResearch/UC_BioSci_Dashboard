@@ -1,0 +1,1369 @@
+[2025-10-01 06:54:07,947] INFO: Removed old artifact: data/openalex_all_authors_lifetime.csv
+[2025-10-01 06:54:07,949] INFO: Removed old artifact: data/openalex_all_authors_last5y_key_fields.csv
+[2025-10-01 06:54:07,950] INFO: Removed old artifact: data/openalex_all_authors_last5y_key_fields_dedup.csv
+[2025-10-01 06:54:07,950] INFO: Reading roster from data/roster_with_metrics.csv
+[2025-10-01 06:54:07,952] INFO: Processing Anderson, Jason (https://openalex.org/A5063855248)
+[2025-10-01 06:54:07,953] INFO: OpenAlex fetch for https://openalex.org/A5063855248 (last 5 years >= 2021)
+[2025-10-01 06:54:07,955] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:08,287] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5063855248&per-page=200&cursor=%2A HTTP/1.1" 200 294107
+[2025-10-01 06:54:08,409] DEBUG: Fetched 136 results at cursor '*'
+[2025-10-01 06:54:08,410] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:08,530] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5063855248&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIxODg1MTM2ODQnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:08,531] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIxODg1MTM2ODQnXSI='
+[2025-10-01 06:54:08,723] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:08,738] INFO: Appended 136 lifetime works for Anderson, Jason
+[2025-10-01 06:54:08,742] INFO: Appended 20 last-5y works for Anderson, Jason
+[2025-10-01 06:54:08,742] INFO: Processing Bhatnagar, Srijak (https://openalex.org/A5041931998)
+[2025-10-01 06:54:08,742] INFO: OpenAlex fetch for https://openalex.org/A5041931998 (last 5 years >= 2021)
+[2025-10-01 06:54:08,743] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:09,091] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5041931998&per-page=200&cursor=%2A HTTP/1.1" 200 202112
+[2025-10-01 06:54:09,204] DEBUG: Fetched 77 results at cursor '*'
+[2025-10-01 06:54:09,205] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:09,308] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5041931998&per-page=200&cursor=Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTE3NTIxMjknXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:09,310] DEBUG: Fetched 0 results at cursor 'Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTE3NTIxMjknXSI='
+[2025-10-01 06:54:09,405] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:09,424] INFO: Appended 77 lifetime works for Bhatnagar, Srijak
+[2025-10-01 06:54:09,432] INFO: Appended 36 last-5y works for Bhatnagar, Srijak
+[2025-10-01 06:54:09,432] INFO: Processing Dymond, Caren (https://openalex.org/A5070032603)
+[2025-10-01 06:54:09,432] INFO: OpenAlex fetch for https://openalex.org/A5070032603 (last 5 years >= 2021)
+[2025-10-01 06:54:09,433] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:09,762] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5070032603&per-page=200&cursor=%2A HTTP/1.1" 200 124757
+[2025-10-01 06:54:09,863] DEBUG: Fetched 55 results at cursor '*'
+[2025-10-01 06:54:09,864] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:09,980] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5070032603&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMDA4NzExMzUnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:09,982] DEBUG: Fetched 0 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMDA4NzExMzUnXSI='
+[2025-10-01 06:54:10,050] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:10,063] INFO: Appended 55 lifetime works for Dymond, Caren
+[2025-10-01 06:54:10,067] INFO: Appended 13 last-5y works for Dymond, Caren
+[2025-10-01 06:54:10,067] INFO: Processing Hermann, Petronella (Petra) (https://openalex.org/A5065477883)
+[2025-10-01 06:54:10,067] INFO: OpenAlex fetch for https://openalex.org/A5065477883 (last 5 years >= 2021)
+[2025-10-01 06:54:10,068] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:10,368] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5065477883&per-page=200&cursor=%2A HTTP/1.1" 200 98385
+[2025-10-01 06:54:10,445] DEBUG: Fetched 34 results at cursor '*'
+[2025-10-01 06:54:10,446] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:11,150] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5065477883&per-page=200&cursor=Ils2MS4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwMTQ3NTg3NzMnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:11,151] DEBUG: Fetched 0 results at cursor 'Ils2MS4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwMTQ3NTg3NzMnXSI='
+[2025-10-01 06:54:11,203] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:11,212] INFO: Appended 34 lifetime works for Hermann, Petronella (Petra)
+[2025-10-01 06:54:11,215] INFO: Appended 2 last-5y works for Hermann, Petronella (Petra)
+[2025-10-01 06:54:11,215] INFO: Processing Lein, Millerd (Ross) (https://openalex.org/A5013565849)
+[2025-10-01 06:54:11,215] INFO: OpenAlex fetch for https://openalex.org/A5013565849 (last 5 years >= 2021)
+[2025-10-01 06:54:11,216] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:11,510] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5013565849&per-page=200&cursor=%2A HTTP/1.1" 200 94022
+[2025-10-01 06:54:11,580] DEBUG: Fetched 52 results at cursor '*'
+[2025-10-01 06:54:11,581] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:11,695] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5013565849&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMjk0NTg4ODMnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:11,697] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMjk0NTg4ODMnXSI='
+[2025-10-01 06:54:11,782] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:11,791] INFO: Appended 52 lifetime works for Lein, Millerd (Ross)
+[2025-10-01 06:54:11,794] INFO: Appended 5 last-5y works for Lein, Millerd (Ross)
+[2025-10-01 06:54:11,794] INFO: Processing Mee, Jonathan (https://openalex.org/A5076712876)
+[2025-10-01 06:54:11,794] INFO: OpenAlex fetch for https://openalex.org/A5076712876 (last 5 years >= 2021)
+[2025-10-01 06:54:11,795] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:11,918] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5076712876&per-page=200&cursor=%2A HTTP/1.1" 200 107755
+[2025-10-01 06:54:11,989] DEBUG: Fetched 42 results at cursor '*'
+[2025-10-01 06:54:11,990] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:12,096] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5076712876&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNzA5NzA4NDInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:12,097] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNzA5NzA4NDInXSI='
+[2025-10-01 06:54:12,158] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:12,167] INFO: Appended 42 lifetime works for Mee, Jonathan
+[2025-10-01 06:54:12,170] INFO: Appended 16 last-5y works for Mee, Jonathan
+[2025-10-01 06:54:12,170] INFO: Processing Moehrenschlager, Axel (https://openalex.org/A5086209639)
+[2025-10-01 06:54:12,170] INFO: OpenAlex fetch for https://openalex.org/A5086209639 (last 5 years >= 2021)
+[2025-10-01 06:54:12,171] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:12,335] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5086209639&per-page=200&cursor=%2A HTTP/1.1" 200 298955
+[2025-10-01 06:54:12,455] DEBUG: Fetched 104 results at cursor '*'
+[2025-10-01 06:54:12,456] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:12,743] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5086209639&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0NTk3OTQnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:12,744] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0NTk3OTQnXSI='
+[2025-10-01 06:54:12,891] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:12,908] INFO: Appended 104 lifetime works for Moehrenschlager, Axel
+[2025-10-01 06:54:12,914] INFO: Appended 52 last-5y works for Moehrenschlager, Axel
+[2025-10-01 06:54:12,914] INFO: Processing Musiani, Marco (https://openalex.org/A5089209732)
+[2025-10-01 06:54:12,915] INFO: OpenAlex fetch for https://openalex.org/A5089209732 (last 5 years >= 2021)
+[2025-10-01 06:54:12,916] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:13,087] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5089209732&per-page=200&cursor=%2A HTTP/1.1" 200 372580
+[2025-10-01 06:54:13,224] DEBUG: Fetched 126 results at cursor '*'
+[2025-10-01 06:54:13,225] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:13,499] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5089209732&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0OTI3OTYnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:13,500] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0OTI3OTYnXSI='
+[2025-10-01 06:54:13,678] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:13,701] INFO: Appended 126 lifetime works for Musiani, Marco
+[2025-10-01 06:54:13,706] INFO: Appended 35 last-5y works for Musiani, Marco
+[2025-10-01 06:54:13,706] INFO: Processing Paul, Andrew (https://openalex.org/A5084794761)
+[2025-10-01 06:54:13,706] INFO: OpenAlex fetch for https://openalex.org/A5084794761 (last 5 years >= 2021)
+[2025-10-01 06:54:13,707] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:13,846] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5084794761&per-page=200&cursor=%2A HTTP/1.1" 200 109263
+[2025-10-01 06:54:13,927] DEBUG: Fetched 47 results at cursor '*'
+[2025-10-01 06:54:13,928] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:14,043] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5084794761&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI4ODU4MTM4NDInXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:14,044] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI4ODU4MTM4NDInXSI='
+[2025-10-01 06:54:14,115] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:14,131] INFO: Appended 47 lifetime works for Paul, Andrew
+[2025-10-01 06:54:14,134] INFO: Appended 13 last-5y works for Paul, Andrew
+[2025-10-01 06:54:14,134] INFO: Processing Ayyaz, Arshad (https://openalex.org/A5069484372)
+[2025-10-01 06:54:14,134] INFO: OpenAlex fetch for https://openalex.org/A5069484372 (last 5 years >= 2021)
+[2025-10-01 06:54:14,135] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:14,272] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5069484372&per-page=200&cursor=%2A HTTP/1.1" 200 101708
+[2025-10-01 06:54:14,343] DEBUG: Fetched 29 results at cursor '*'
+[2025-10-01 06:54:14,344] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:14,469] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5069484372&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTk0MzM4NTEnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:14,471] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTk0MzM4NTEnXSI='
+[2025-10-01 06:54:14,529] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:14,539] INFO: Appended 29 lifetime works for Ayyaz, Arshad
+[2025-10-01 06:54:14,544] INFO: Appended 17 last-5y works for Ayyaz, Arshad
+[2025-10-01 06:54:14,544] INFO: Processing Balser, Teresa (https://openalex.org/A5109335726)
+[2025-10-01 06:54:14,544] INFO: OpenAlex fetch for https://openalex.org/A5109335726 (last 5 years >= 2021)
+[2025-10-01 06:54:14,545] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:14,704] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5109335726&per-page=200&cursor=%2A HTTP/1.1" 200 195575
+[2025-10-01 06:54:14,815] DEBUG: Fetched 98 results at cursor '*'
+[2025-10-01 06:54:14,816] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:14,934] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5109335726&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDAwNTg1MzknXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:14,936] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDAwNTg1MzknXSI='
+[2025-10-01 06:54:15,014] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:15,028] INFO: Appended 98 lifetime works for Balser, Teresa
+[2025-10-01 06:54:15,031] INFO: Appended 4 last-5y works for Balser, Teresa
+[2025-10-01 06:54:15,031] INFO: Processing Barst, Benjamin (https://openalex.org/A5067480948)
+[2025-10-01 06:54:15,031] INFO: OpenAlex fetch for https://openalex.org/A5067480948 (last 5 years >= 2021)
+[2025-10-01 06:54:15,032] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:15,192] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5067480948&per-page=200&cursor=%2A HTTP/1.1" 200 143724
+[2025-10-01 06:54:15,281] DEBUG: Fetched 47 results at cursor '*'
+[2025-10-01 06:54:15,282] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:15,395] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5067480948&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDY1MzM1OTMnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:15,396] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDY1MzM1OTMnXSI='
+[2025-10-01 06:54:15,468] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:15,483] INFO: Appended 47 lifetime works for Barst, Benjamin
+[2025-10-01 06:54:15,487] INFO: Appended 23 last-5y works for Barst, Benjamin
+[2025-10-01 06:54:15,488] INFO: Processing Bodnar, Tamara (https://openalex.org/A5010143483)
+[2025-10-01 06:54:15,488] INFO: OpenAlex fetch for https://openalex.org/A5010143483 (last 5 years >= 2021)
+[2025-10-01 06:54:15,489] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:15,800] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5010143483&per-page=200&cursor=%2A HTTP/1.1" 200 143708
+[2025-10-01 06:54:15,904] DEBUG: Fetched 50 results at cursor '*'
+[2025-10-01 06:54:15,905] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:16,011] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5010143483&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTk4NTE0MjgnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:16,012] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTk4NTE0MjgnXSI='
+[2025-10-01 06:54:16,079] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:16,091] INFO: Appended 50 lifetime works for Bodnar, Tamara
+[2025-10-01 06:54:16,095] INFO: Appended 19 last-5y works for Bodnar, Tamara
+[2025-10-01 06:54:16,095] INFO: Processing Buret, Andre (https://openalex.org/A5082944188)
+[2025-10-01 06:54:16,095] INFO: OpenAlex fetch for https://openalex.org/A5082944188 (last 5 years >= 2021)
+[2025-10-01 06:54:16,096] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:16,317] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5082944188&per-page=200&cursor=%2A HTTP/1.1" 200 621731
+[2025-10-01 06:54:16,477] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:16,478] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:16,645] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5082944188&per-page=200&cursor=Ils2OS4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNzM2Mzg1NTUnXSI%3D HTTP/1.1" 200 203900
+[2025-10-01 06:54:16,733] DEBUG: Fetched 98 results at cursor 'Ils2OS4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNzM2Mzg1NTUnXSI='
+[2025-10-01 06:54:16,734] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:16,864] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5082944188&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTAwMjM2OTknXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:16,866] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTAwMjM2OTknXSI='
+[2025-10-01 06:54:17,330] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:17,366] INFO: Appended 298 lifetime works for Buret, Andre
+[2025-10-01 06:54:17,371] INFO: Appended 39 last-5y works for Buret, Andre
+[2025-10-01 06:54:17,372] INFO: Processing Burkinshaw, Brianne (https://openalex.org/A5073387012)
+[2025-10-01 06:54:17,372] INFO: OpenAlex fetch for https://openalex.org/A5073387012 (last 5 years >= 2021)
+[2025-10-01 06:54:17,373] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:17,503] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5073387012&per-page=200&cursor=%2A HTTP/1.1" 200 40552
+[2025-10-01 06:54:17,554] DEBUG: Fetched 16 results at cursor '*'
+[2025-10-01 06:54:17,555] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:17,667] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5073387012&per-page=200&cursor=Ils2NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI5Nzc0MDk2MzInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:17,668] DEBUG: Fetched 0 results at cursor 'Ils2NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI5Nzc0MDk2MzInXSI='
+[2025-10-01 06:54:17,696] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:17,719] INFO: Appended 16 lifetime works for Burkinshaw, Brianne
+[2025-10-01 06:54:17,721] INFO: Appended 2 last-5y works for Burkinshaw, Brianne
+[2025-10-01 06:54:17,721] INFO: Processing Cantin, Ariane (https://openalex.org/A5089057590)
+[2025-10-01 06:54:17,721] INFO: OpenAlex fetch for https://openalex.org/A5089057590 (last 5 years >= 2021)
+[2025-10-01 06:54:17,722] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:17,849] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5089057590&per-page=200&cursor=%2A HTTP/1.1" 200 41788
+[2025-10-01 06:54:17,901] DEBUG: Fetched 12 results at cursor '*'
+[2025-10-01 06:54:17,902] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:18,016] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5089057590&per-page=200&cursor=Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDg5NzcyNTEnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:18,017] DEBUG: Fetched 0 results at cursor 'Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDg5NzcyNTEnXSI='
+[2025-10-01 06:54:18,046] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:18,053] INFO: Appended 12 lifetime works for Cantin, Ariane
+[2025-10-01 06:54:18,057] INFO: Appended 9 last-5y works for Cantin, Ariane
+[2025-10-01 06:54:18,058] INFO: Processing Cardou, Francoise (https://openalex.org/A5055718766)
+[2025-10-01 06:54:18,058] INFO: OpenAlex fetch for https://openalex.org/A5055718766 (last 5 years >= 2021)
+[2025-10-01 06:54:18,059] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:18,194] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5055718766&per-page=200&cursor=%2A HTTP/1.1" 200 68915
+[2025-10-01 06:54:18,250] DEBUG: Fetched 22 results at cursor '*'
+[2025-10-01 06:54:18,251] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:18,353] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5055718766&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODUzNDI5MDEnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:18,354] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODUzNDI5MDEnXSI='
+[2025-10-01 06:54:18,395] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:18,403] INFO: Appended 22 lifetime works for Cardou, Francoise
+[2025-10-01 06:54:18,407] INFO: Appended 13 last-5y works for Cardou, Francoise
+[2025-10-01 06:54:18,407] INFO: Processing Chua, Gordon (https://openalex.org/A5071220212)
+[2025-10-01 06:54:18,407] INFO: OpenAlex fetch for https://openalex.org/A5071220212 (last 5 years >= 2021)
+[2025-10-01 06:54:18,408] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:18,543] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5071220212&per-page=200&cursor=%2A HTTP/1.1" 200 140091
+[2025-10-01 06:54:18,618] DEBUG: Fetched 50 results at cursor '*'
+[2025-10-01 06:54:18,620] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:18,911] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5071220212&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMzk5MDg0NjEnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:18,913] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMzk5MDg0NjEnXSI='
+[2025-10-01 06:54:18,974] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:18,986] INFO: Appended 50 lifetime works for Chua, Gordon
+[2025-10-01 06:54:18,989] INFO: Appended 3 last-5y works for Chua, Gordon
+[2025-10-01 06:54:18,989] INFO: Processing Ciborowski, Jan (https://openalex.org/A5065053670)
+[2025-10-01 06:54:18,989] INFO: OpenAlex fetch for https://openalex.org/A5065053670 (last 5 years >= 2021)
+[2025-10-01 06:54:18,990] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:19,333] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5065053670&per-page=200&cursor=%2A HTTP/1.1" 200 267446
+[2025-10-01 06:54:19,451] DEBUG: Fetched 127 results at cursor '*'
+[2025-10-01 06:54:19,452] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:19,575] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5065053670&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMDE3NTE1NjcnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:19,577] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMDE3NTE1NjcnXSI='
+[2025-10-01 06:54:19,702] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:19,719] INFO: Appended 127 lifetime works for Ciborowski, Jan
+[2025-10-01 06:54:19,723] INFO: Appended 8 last-5y works for Ciborowski, Jan
+[2025-10-01 06:54:19,723] INFO: Processing Cobb, John (https://openalex.org/A5007729024)
+[2025-10-01 06:54:19,723] INFO: OpenAlex fetch for https://openalex.org/A5007729024 (last 5 years >= 2021)
+[2025-10-01 06:54:19,724] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:19,884] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5007729024&per-page=200&cursor=%2A HTTP/1.1" 200 171275
+[2025-10-01 06:54:19,972] DEBUG: Fetched 54 results at cursor '*'
+[2025-10-01 06:54:19,974] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:20,090] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5007729024&per-page=200&cursor=Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDYyNTQyNDInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:20,091] DEBUG: Fetched 0 results at cursor 'Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDYyNTQyNDInXSI='
+[2025-10-01 06:54:20,178] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:20,193] INFO: Appended 54 lifetime works for Cobb, John
+[2025-10-01 06:54:20,196] INFO: Appended 7 last-5y works for Cobb, John
+[2025-10-01 06:54:20,197] INFO: Processing Dunfield, Peter (https://openalex.org/A5029718330)
+[2025-10-01 06:54:20,197] INFO: OpenAlex fetch for https://openalex.org/A5029718330 (last 5 years >= 2021)
+[2025-10-01 06:54:20,198] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:20,381] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5029718330&per-page=200&cursor=%2A HTTP/1.1" 200 493913
+[2025-10-01 06:54:20,535] DEBUG: Fetched 152 results at cursor '*'
+[2025-10-01 06:54:20,536] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:20,654] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5029718330&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMzgxNzUzMTQnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:20,655] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMzgxNzUzMTQnXSI='
+[2025-10-01 06:54:20,873] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:20,900] INFO: Appended 152 lifetime works for Dunfield, Peter
+[2025-10-01 06:54:20,905] INFO: Appended 26 last-5y works for Dunfield, Peter
+[2025-10-01 06:54:20,905] INFO: Processing Engel, Megan (https://openalex.org/A5042282780)
+[2025-10-01 06:54:20,905] INFO: OpenAlex fetch for https://openalex.org/A5042282780 (last 5 years >= 2021)
+[2025-10-01 06:54:20,906] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:21,033] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042282780&per-page=200&cursor=%2A HTTP/1.1" 200 58446
+[2025-10-01 06:54:21,087] DEBUG: Fetched 31 results at cursor '*'
+[2025-10-01 06:54:21,089] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:21,193] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042282780&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMjU3Mjc0NzcnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:21,194] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMjU3Mjc0NzcnXSI='
+[2025-10-01 06:54:21,231] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:21,246] INFO: Appended 31 lifetime works for Engel, Megan
+[2025-10-01 06:54:21,250] INFO: Appended 12 last-5y works for Engel, Megan
+[2025-10-01 06:54:21,250] INFO: Processing Facchini, Peter James (https://openalex.org/A5020766540)
+[2025-10-01 06:54:21,250] INFO: OpenAlex fetch for https://openalex.org/A5020766540 (last 5 years >= 2021)
+[2025-10-01 06:54:21,251] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:21,439] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5020766540&per-page=200&cursor=%2A HTTP/1.1" 200 476560
+[2025-10-01 06:54:21,600] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:21,602] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:21,718] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5020766540&per-page=200&cursor=Ils1NS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMzY4NjE2NzUnXSI%3D HTTP/1.1" 200 3513
+[2025-10-01 06:54:21,719] DEBUG: Fetched 1 results at cursor 'Ils1NS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMzY4NjE2NzUnXSI='
+[2025-10-01 06:54:21,720] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:21,838] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5020766540&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTIwNzAyOTMnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:21,839] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTIwNzAyOTMnXSI='
+[2025-10-01 06:54:22,086] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:22,108] INFO: Appended 201 lifetime works for Facchini, Peter James
+[2025-10-01 06:54:22,111] INFO: Appended 24 last-5y works for Facchini, Peter James
+[2025-10-01 06:54:22,112] INFO: Processing Finney, Constance (https://openalex.org/A5014665566)
+[2025-10-01 06:54:22,112] INFO: OpenAlex fetch for https://openalex.org/A5014665566 (last 5 years >= 2021)
+[2025-10-01 06:54:22,113] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:22,243] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5014665566&per-page=200&cursor=%2A HTTP/1.1" 200 170503
+[2025-10-01 06:54:22,319] DEBUG: Fetched 59 results at cursor '*'
+[2025-10-01 06:54:22,320] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:22,437] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5014665566&per-page=200&cursor=Ils1NS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI0MTc3MDgwNjcnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:22,438] DEBUG: Fetched 0 results at cursor 'Ils1NS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI0MTc3MDgwNjcnXSI='
+[2025-10-01 06:54:22,520] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:22,541] INFO: Appended 59 lifetime works for Finney, Constance
+[2025-10-01 06:54:22,545] INFO: Appended 25 last-5y works for Finney, Constance
+[2025-10-01 06:54:22,546] INFO: Processing Fitzpatrick, Connor (https://openalex.org/A5049344986)
+[2025-10-01 06:54:22,546] INFO: OpenAlex fetch for https://openalex.org/A5049344986 (last 5 years >= 2021)
+[2025-10-01 06:54:22,547] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:22,702] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5049344986&per-page=200&cursor=%2A HTTP/1.1" 200 228059
+[2025-10-01 06:54:22,816] DEBUG: Fetched 109 results at cursor '*'
+[2025-10-01 06:54:22,817] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:22,937] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5049344986&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI2MTEyMTg3MzgnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:22,938] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI2MTEyMTg3MzgnXSI='
+[2025-10-01 06:54:23,055] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:23,071] INFO: Appended 109 lifetime works for Fitzpatrick, Connor
+[2025-10-01 06:54:23,075] INFO: Appended 31 last-5y works for Fitzpatrick, Connor
+[2025-10-01 06:54:23,075] INFO: Processing Flanagan, Kyla (https://openalex.org/A5002175344)
+[2025-10-01 06:54:23,075] INFO: OpenAlex fetch for https://openalex.org/A5002175344 (last 5 years >= 2021)
+[2025-10-01 06:54:23,076] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:23,206] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5002175344&per-page=200&cursor=%2A HTTP/1.1" 200 43608
+[2025-10-01 06:54:23,256] DEBUG: Fetched 10 results at cursor '*'
+[2025-10-01 06:54:23,257] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:23,377] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5002175344&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzE0Nzk4NjI2MzQnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:23,378] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzE0Nzk4NjI2MzQnXSI='
+[2025-10-01 06:54:23,402] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:23,413] INFO: Appended 10 lifetime works for Flanagan, Kyla
+[2025-10-01 06:54:23,416] INFO: Appended 2 last-5y works for Flanagan, Kyla
+[2025-10-01 06:54:23,416] INFO: Processing Flynn, Corey (https://openalex.org/A5113569616)
+[2025-10-01 06:54:23,416] INFO: OpenAlex fetch for https://openalex.org/A5113569616 (last 5 years >= 2021)
+[2025-10-01 06:54:23,417] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:23,543] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5113569616&per-page=200&cursor=%2A HTTP/1.1" 200 34989
+[2025-10-01 06:54:23,571] DEBUG: Fetched 13 results at cursor '*'
+[2025-10-01 06:54:23,572] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:23,686] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5113569616&per-page=200&cursor=Ils2OC4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTMzNzI2MzEnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:23,688] DEBUG: Fetched 0 results at cursor 'Ils2OC4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTMzNzI2MzEnXSI='
+[2025-10-01 06:54:23,714] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:23,720] INFO: Appended 13 lifetime works for Flynn, Corey
+[2025-10-01 06:54:23,723] INFO: Appended 1 last-5y works for Flynn, Corey
+[2025-10-01 06:54:23,723] INFO: Processing Fox, Jeremy (https://openalex.org/A5042849572)
+[2025-10-01 06:54:23,723] INFO: OpenAlex fetch for https://openalex.org/A5042849572 (last 5 years >= 2021)
+[2025-10-01 06:54:23,724] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:23,909] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042849572&per-page=200&cursor=%2A HTTP/1.1" 200 300982
+[2025-10-01 06:54:24,038] DEBUG: Fetched 115 results at cursor '*'
+[2025-10-01 06:54:24,040] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:24,169] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042849572&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODUzNDQ3MjEnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:24,170] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODUzNDQ3MjEnXSI='
+[2025-10-01 06:54:24,323] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:24,339] INFO: Appended 115 lifetime works for Fox, Jeremy
+[2025-10-01 06:54:24,342] INFO: Appended 21 last-5y works for Fox, Jeremy
+[2025-10-01 06:54:24,342] INFO: Processing Fraser, Marie (https://openalex.org/A5080173650)
+[2025-10-01 06:54:24,342] INFO: OpenAlex fetch for https://openalex.org/A5080173650 (last 5 years >= 2021)
+[2025-10-01 06:54:24,343] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:24,528] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5080173650&per-page=200&cursor=%2A HTTP/1.1" 200 245557
+[2025-10-01 06:54:24,650] DEBUG: Fetched 165 results at cursor '*'
+[2025-10-01 06:54:24,651] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:24,919] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5080173650&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI2NTQ1ODI1OSddIg%3D%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:24,921] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI2NTQ1ODI1OSddIg=='
+[2025-10-01 06:54:25,076] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:25,095] INFO: Appended 165 lifetime works for Fraser, Marie
+[2025-10-01 06:54:25,099] INFO: Appended 12 last-5y works for Fraser, Marie
+[2025-10-01 06:54:25,099] INFO: Processing Galpern, Paul (https://openalex.org/A5026980878)
+[2025-10-01 06:54:25,099] INFO: OpenAlex fetch for https://openalex.org/A5026980878 (last 5 years >= 2021)
+[2025-10-01 06:54:25,100] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:25,240] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5026980878&per-page=200&cursor=%2A HTTP/1.1" 200 137629
+[2025-10-01 06:54:25,321] DEBUG: Fetched 63 results at cursor '*'
+[2025-10-01 06:54:25,322] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:25,429] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5026980878&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMTQ2MzE0OTQnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:25,431] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMTQ2MzE0OTQnXSI='
+[2025-10-01 06:54:25,497] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:25,513] INFO: Appended 63 lifetime works for Galpern, Paul
+[2025-10-01 06:54:25,518] INFO: Appended 31 last-5y works for Galpern, Paul
+[2025-10-01 06:54:25,518] INFO: Processing Gieg, Lisa (https://openalex.org/A5067337817)
+[2025-10-01 06:54:25,518] INFO: OpenAlex fetch for https://openalex.org/A5067337817 (last 5 years >= 2021)
+[2025-10-01 06:54:25,519] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:25,680] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5067337817&per-page=200&cursor=%2A HTTP/1.1" 200 315353
+[2025-10-01 06:54:25,819] DEBUG: Fetched 122 results at cursor '*'
+[2025-10-01 06:54:25,820] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:25,930] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5067337817&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI4MDYxOTM1OTgnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:25,932] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI4MDYxOTM1OTgnXSI='
+[2025-10-01 06:54:26,080] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:26,098] INFO: Appended 122 lifetime works for Gieg, Lisa
+[2025-10-01 06:54:26,102] INFO: Appended 35 last-5y works for Gieg, Lisa
+[2025-10-01 06:54:26,102] INFO: Processing Graham, Cindy (https://openalex.org/A5109244759)
+[2025-10-01 06:54:26,102] INFO: OpenAlex fetch for https://openalex.org/A5109244759 (last 5 years >= 2021)
+[2025-10-01 06:54:26,103] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:26,227] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5109244759&per-page=200&cursor=%2A HTTP/1.1" 200 22590
+[2025-10-01 06:54:26,253] DEBUG: Fetched 53 results at cursor '*'
+[2025-10-01 06:54:26,254] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:26,371] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5109244759&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzkxNTYyNzgwJ10i HTTP/1.1" 200 141
+[2025-10-01 06:54:26,372] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzkxNTYyNzgwJ10i'
+[2025-10-01 06:54:26,392] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:26,403] INFO: Appended 53 lifetime works for Graham, Cindy
+[2025-10-01 06:54:26,403] INFO: No last-5y works for Graham, Cindy
+[2025-10-01 06:54:26,403] INFO: Processing Gregory, Ann (https://openalex.org/A5040335896)
+[2025-10-01 06:54:26,403] INFO: OpenAlex fetch for https://openalex.org/A5040335896 (last 5 years >= 2021)
+[2025-10-01 06:54:26,404] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:26,551] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5040335896&per-page=200&cursor=%2A HTTP/1.1" 200 215785
+[2025-10-01 06:54:26,661] DEBUG: Fetched 54 results at cursor '*'
+[2025-10-01 06:54:26,662] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:26,781] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5040335896&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMjM3MzM1NzcnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:26,783] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMjM3MzM1NzcnXSI='
+[2025-10-01 06:54:26,851] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:26,870] INFO: Appended 54 lifetime works for Gregory, Ann
+[2025-10-01 06:54:26,877] INFO: Appended 30 last-5y works for Gregory, Ann
+[2025-10-01 06:54:26,877] INFO: Processing Habibi, Hamid (https://openalex.org/A5002421690)
+[2025-10-01 06:54:26,877] INFO: OpenAlex fetch for https://openalex.org/A5002421690 (last 5 years >= 2021)
+[2025-10-01 06:54:26,878] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:27,074] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5002421690&per-page=200&cursor=%2A HTTP/1.1" 200 478740
+[2025-10-01 06:54:27,227] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:27,229] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:27,346] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5002421690&per-page=200&cursor=Ils2My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNTEzNzY0MTEnXSI%3D HTTP/1.1" 200 25779
+[2025-10-01 06:54:27,370] DEBUG: Fetched 12 results at cursor 'Ils2My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNTEzNzY0MTEnXSI='
+[2025-10-01 06:54:27,371] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:27,482] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5002421690&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzE0OTA5MjYxODMnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:27,484] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzE0OTA5MjYxODMnXSI='
+[2025-10-01 06:54:27,708] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:27,733] INFO: Appended 212 lifetime works for Habibi, Hamid
+[2025-10-01 06:54:27,738] INFO: Appended 38 last-5y works for Habibi, Hamid
+[2025-10-01 06:54:27,738] INFO: Processing Haji-Ghassemi, Omid (https://openalex.org/A5079772694)
+[2025-10-01 06:54:27,738] INFO: OpenAlex fetch for https://openalex.org/A5079772694 (last 5 years >= 2021)
+[2025-10-01 06:54:27,739] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:27,878] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5079772694&per-page=200&cursor=%2A HTTP/1.1" 200 132859
+[2025-10-01 06:54:27,981] DEBUG: Fetched 80 results at cursor '*'
+[2025-10-01 06:54:27,982] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:28,109] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5079772694&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMyMTE4MTY3MjMnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:28,111] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMyMTE4MTY3MjMnXSI='
+[2025-10-01 06:54:28,169] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:28,188] INFO: Appended 80 lifetime works for Haji-Ghassemi, Omid
+[2025-10-01 06:54:28,192] INFO: Appended 22 last-5y works for Haji-Ghassemi, Omid
+[2025-10-01 06:54:28,192] INFO: Processing Hansen, David (https://openalex.org/A5047819225)
+[2025-10-01 06:54:28,192] INFO: OpenAlex fetch for https://openalex.org/A5047819225 (last 5 years >= 2021)
+[2025-10-01 06:54:28,193] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:28,387] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5047819225&per-page=200&cursor=%2A HTTP/1.1" 200 474529
+[2025-10-01 06:54:28,535] DEBUG: Fetched 182 results at cursor '*'
+[2025-10-01 06:54:28,536] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:28,643] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5047819225&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNjk2Mjc0MjgnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:28,645] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNjk2Mjc0MjgnXSI='
+[2025-10-01 06:54:28,850] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:28,894] INFO: Appended 182 lifetime works for Hansen, David
+[2025-10-01 06:54:28,931] INFO: Appended 178 last-5y works for Hansen, David
+[2025-10-01 06:54:28,932] INFO: Processing Harrison, Joe (https://openalex.org/A5049499964)
+[2025-10-01 06:54:28,932] INFO: OpenAlex fetch for https://openalex.org/A5049499964 (last 5 years >= 2021)
+[2025-10-01 06:54:28,933] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:29,106] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5049499964&per-page=200&cursor=%2A HTTP/1.1" 200 266933
+[2025-10-01 06:54:29,229] DEBUG: Fetched 70 results at cursor '*'
+[2025-10-01 06:54:29,230] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:29,354] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5049499964&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODUzMzkzMDUnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:29,355] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODUzMzkzMDUnXSI='
+[2025-10-01 06:54:29,488] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:29,513] INFO: Appended 70 lifetime works for Harrison, Joe
+[2025-10-01 06:54:29,517] INFO: Appended 15 last-5y works for Harrison, Joe
+[2025-10-01 06:54:29,517] INFO: Processing Hubert, Casey (https://openalex.org/A5029134801)
+[2025-10-01 06:54:29,517] INFO: OpenAlex fetch for https://openalex.org/A5029134801 (last 5 years >= 2021)
+[2025-10-01 06:54:29,518] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:29,724] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5029134801&per-page=200&cursor=%2A HTTP/1.1" 200 603617
+[2025-10-01 06:54:29,884] DEBUG: Fetched 194 results at cursor '*'
+[2025-10-01 06:54:29,885] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:30,208] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5029134801&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzE2NjYyOTM3NDAnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:30,210] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzE2NjYyOTM3NDAnXSI='
+[2025-10-01 06:54:30,533] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:30,568] INFO: Appended 194 lifetime works for Hubert, Casey
+[2025-10-01 06:54:30,582] INFO: Appended 109 last-5y works for Hubert, Casey
+[2025-10-01 06:54:30,582] INFO: Processing Huddleston, William (https://openalex.org/A5077303655)
+[2025-10-01 06:54:30,582] INFO: OpenAlex fetch for https://openalex.org/A5077303655 (last 5 years >= 2021)
+[2025-10-01 06:54:30,583] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:30,703] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5077303655&per-page=200&cursor=%2A HTTP/1.1" 200 12015
+[2025-10-01 06:54:30,731] DEBUG: Fetched 7 results at cursor '*'
+[2025-10-01 06:54:30,732] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:30,847] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5077303655&per-page=200&cursor=Ils1OS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3OTUxNzM3MTAnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:30,848] DEBUG: Fetched 0 results at cursor 'Ils1OS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3OTUxNzM3MTAnXSI='
+[2025-10-01 06:54:30,865] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:30,886] INFO: Appended 7 lifetime works for Huddleston, William
+[2025-10-01 06:54:30,888] INFO: Appended 2 last-5y works for Huddleston, William
+[2025-10-01 06:54:30,889] INFO: Processing Lebenzon, Jackie (https://openalex.org/A5056052208)
+[2025-10-01 06:54:30,889] INFO: OpenAlex fetch for https://openalex.org/A5056052208 (last 5 years >= 2021)
+[2025-10-01 06:54:30,890] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:31,011] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5056052208&per-page=200&cursor=%2A HTTP/1.1" 200 35981
+[2025-10-01 06:54:31,050] DEBUG: Fetched 12 results at cursor '*'
+[2025-10-01 06:54:31,051] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:31,159] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5056052208&per-page=200&cursor=Ils3NC4wLCAzLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzIwODY3OTQnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:31,161] DEBUG: Fetched 0 results at cursor 'Ils3NC4wLCAzLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzIwODY3OTQnXSI='
+[2025-10-01 06:54:31,189] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:31,194] INFO: Appended 12 lifetime works for Lebenzon, Jackie
+[2025-10-01 06:54:31,198] INFO: Appended 8 last-5y works for Lebenzon, Jackie
+[2025-10-01 06:54:31,198] INFO: Processing Lees-Miller, Susan (https://openalex.org/A5035453779)
+[2025-10-01 06:54:31,198] INFO: OpenAlex fetch for https://openalex.org/A5035453779 (last 5 years >= 2021)
+[2025-10-01 06:54:31,199] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:31,444] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5035453779&per-page=200&cursor=%2A HTTP/1.1" 200 677183
+[2025-10-01 06:54:31,606] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:31,607] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:31,732] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5035453779&per-page=200&cursor=Ils2OC4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDYzNTMxNzknXSI%3D HTTP/1.1" 200 128336
+[2025-10-01 06:54:31,806] DEBUG: Fetched 102 results at cursor 'Ils2OC4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMDYzNTMxNzknXSI='
+[2025-10-01 06:54:31,807] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:31,928] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5035453779&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1NjYyMzIzNCddIg%3D%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:31,929] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1NjYyMzIzNCddIg=='
+[2025-10-01 06:54:32,429] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:32,465] INFO: Appended 302 lifetime works for Lees-Miller, Susan
+[2025-10-01 06:54:32,470] INFO: Appended 45 last-5y works for Lees-Miller, Susan
+[2025-10-01 06:54:32,470] INFO: Processing Lewis, Ian (https://openalex.org/A5080144419)
+[2025-10-01 06:54:32,470] INFO: OpenAlex fetch for https://openalex.org/A5080144419 (last 5 years >= 2021)
+[2025-10-01 06:54:32,471] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:32,679] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5080144419&per-page=200&cursor=%2A HTTP/1.1" 200 501904
+[2025-10-01 06:54:32,831] DEBUG: Fetched 156 results at cursor '*'
+[2025-10-01 06:54:32,833] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:32,944] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5080144419&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMDk5MzgxNDknXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:32,946] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzMDk5MzgxNDknXSI='
+[2025-10-01 06:54:33,188] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:33,231] INFO: Appended 156 lifetime works for Lewis, Ian
+[2025-10-01 06:54:33,239] INFO: Appended 61 last-5y works for Lewis, Ian
+[2025-10-01 06:54:33,239] INFO: Processing Lucas, Kelsey (https://openalex.org/A5004952410)
+[2025-10-01 06:54:33,239] INFO: OpenAlex fetch for https://openalex.org/A5004952410 (last 5 years >= 2021)
+[2025-10-01 06:54:33,240] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:33,369] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=%2A HTTP/1.1" 200 106916
+[2025-10-01 06:54:33,449] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:33,450] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:33,583] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgyOTMyNzMnXSI%3D HTTP/1.1" 200 49526
+[2025-10-01 06:54:33,673] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgyOTMyNzMnXSI='
+[2025-10-01 06:54:33,674] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:33,804] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgzMzQ3MDQnXSI%3D HTTP/1.1" 200 43932
+[2025-10-01 06:54:33,865] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgzMzQ3MDQnXSI='
+[2025-10-01 06:54:33,866] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:33,992] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgzODA2NDMnXSI%3D HTTP/1.1" 200 45748
+[2025-10-01 06:54:34,054] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgzODA2NDMnXSI='
+[2025-10-01 06:54:34,055] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:34,186] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg0MjQ4MjcnXSI%3D HTTP/1.1" 200 41020
+[2025-10-01 06:54:34,248] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg0MjQ4MjcnXSI='
+[2025-10-01 06:54:34,249] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:34,377] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg0NjY2MDcnXSI%3D HTTP/1.1" 200 43496
+[2025-10-01 06:54:34,438] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg0NjY2MDcnXSI='
+[2025-10-01 06:54:34,439] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:34,560] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg1MDcxNjcnXSI%3D HTTP/1.1" 200 42667
+[2025-10-01 06:54:34,614] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg1MDcxNjcnXSI='
+[2025-10-01 06:54:34,615] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:34,765] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg1NDY2NTEnXSI%3D HTTP/1.1" 200 42585
+[2025-10-01 06:54:34,878] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg1NDY2NTEnXSI='
+[2025-10-01 06:54:34,879] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:35,021] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg1ODg5OTgnXSI%3D HTTP/1.1" 200 44924
+[2025-10-01 06:54:35,082] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg1ODg5OTgnXSI='
+[2025-10-01 06:54:35,083] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:35,214] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg2MzExOTMnXSI%3D HTTP/1.1" 200 41200
+[2025-10-01 06:54:35,273] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg2MzExOTMnXSI='
+[2025-10-01 06:54:35,274] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:35,414] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg2NzQ4NTAnXSI%3D HTTP/1.1" 200 46012
+[2025-10-01 06:54:35,475] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg2NzQ4NTAnXSI='
+[2025-10-01 06:54:35,476] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:35,637] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg3MTcxNDYnXSI%3D HTTP/1.1" 200 41385
+[2025-10-01 06:54:35,700] DEBUG: Fetched 200 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg3MTcxNDYnXSI='
+[2025-10-01 06:54:35,701] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:35,809] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg3NTUwMTUnXSI%3D HTTP/1.1" 200 3498
+[2025-10-01 06:54:35,811] DEBUG: Fetched 6 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg3NTUwMTUnXSI='
+[2025-10-01 06:54:35,812] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:36,014] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5004952410&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg3NTU3MjknXSI%3D HTTP/1.1" 200 143
+[2025-10-01 06:54:36,016] DEBUG: Fetched 0 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTg3NTU3MjknXSI='
+[2025-10-01 06:54:36,434] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:36,557] INFO: Appended 2406 lifetime works for Lucas, Kelsey
+[2025-10-01 06:54:36,561] INFO: Appended 7 last-5y works for Lucas, Kelsey
+[2025-10-01 06:54:36,561] INFO: Processing Menzies, Allyson (https://openalex.org/A5021419374)
+[2025-10-01 06:54:36,561] INFO: OpenAlex fetch for https://openalex.org/A5021419374 (last 5 years >= 2021)
+[2025-10-01 06:54:36,562] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:36,690] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5021419374&per-page=200&cursor=%2A HTTP/1.1" 200 146817
+[2025-10-01 06:54:36,818] DEBUG: Fetched 59 results at cursor '*'
+[2025-10-01 06:54:36,819] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:36,936] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5021419374&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTM1NzU0NTInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:36,937] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTM1NzU0NTInXSI='
+[2025-10-01 06:54:37,016] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:37,066] INFO: Appended 59 lifetime works for Menzies, Allyson
+[2025-10-01 06:54:37,072] INFO: Appended 37 last-5y works for Menzies, Allyson
+[2025-10-01 06:54:37,072] INFO: Processing Moorhead, Gregory (https://openalex.org/A5035368724)
+[2025-10-01 06:54:37,072] INFO: OpenAlex fetch for https://openalex.org/A5035368724 (last 5 years >= 2021)
+[2025-10-01 06:54:37,073] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:37,236] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5035368724&per-page=200&cursor=%2A HTTP/1.1" 200 340123
+[2025-10-01 06:54:37,374] DEBUG: Fetched 138 results at cursor '*'
+[2025-10-01 06:54:37,376] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:37,490] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5035368724&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODgyNzg0NTQnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:37,492] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODgyNzg0NTQnXSI='
+[2025-10-01 06:54:37,664] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:37,683] INFO: Appended 138 lifetime works for Moorhead, Gregory
+[2025-10-01 06:54:37,686] INFO: Appended 17 last-5y works for Moorhead, Gregory
+[2025-10-01 06:54:37,686] INFO: Processing Morck, Douglas Walter (https://openalex.org/A5053621056)
+[2025-10-01 06:54:37,686] INFO: OpenAlex fetch for https://openalex.org/A5053621056 (last 5 years >= 2021)
+[2025-10-01 06:54:37,687] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:37,903] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5053621056&per-page=200&cursor=%2A HTTP/1.1" 200 310188
+[2025-10-01 06:54:38,022] DEBUG: Fetched 118 results at cursor '*'
+[2025-10-01 06:54:38,023] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:38,137] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5053621056&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTY3MDI2MTMnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:38,138] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTY3MDI2MTMnXSI='
+[2025-10-01 06:54:38,304] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:38,326] INFO: Appended 118 lifetime works for Morck, Douglas Walter
+[2025-10-01 06:54:38,329] INFO: Appended 9 last-5y works for Morck, Douglas Walter
+[2025-10-01 06:54:38,329] INFO: Processing Muench, Douglas (https://openalex.org/A5015394037)
+[2025-10-01 06:54:38,330] INFO: OpenAlex fetch for https://openalex.org/A5015394037 (last 5 years >= 2021)
+[2025-10-01 06:54:38,331] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:38,929] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5015394037&per-page=200&cursor=%2A HTTP/1.1" 200 181437
+[2025-10-01 06:54:39,035] DEBUG: Fetched 62 results at cursor '*'
+[2025-10-01 06:54:39,036] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:39,143] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5015394037&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI4MDY5OTYxODQnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:39,145] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI4MDY5OTYxODQnXSI='
+[2025-10-01 06:54:39,253] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:39,269] INFO: Appended 62 lifetime works for Muench, Douglas
+[2025-10-01 06:54:39,272] INFO: Appended 11 last-5y works for Muench, Douglas
+[2025-10-01 06:54:39,272] INFO: Processing Munkittrick, Kelly (https://openalex.org/A5037722586)
+[2025-10-01 06:54:39,272] INFO: OpenAlex fetch for https://openalex.org/A5037722586 (last 5 years >= 2021)
+[2025-10-01 06:54:39,273] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:39,458] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5037722586&per-page=200&cursor=%2A HTTP/1.1" 200 504173
+[2025-10-01 06:54:39,589] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:39,591] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:39,709] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5037722586&per-page=200&cursor=Ils4MC4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNDkwOTY2OTYnXSI%3D HTTP/1.1" 200 95009
+[2025-10-01 06:54:39,779] DEBUG: Fetched 47 results at cursor 'Ils4MC4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNDkwOTY2OTYnXSI='
+[2025-10-01 06:54:39,780] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:39,891] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5037722586&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTYyMjYyMzcnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:39,893] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTYyMjYyMzcnXSI='
+[2025-10-01 06:54:40,197] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:40,225] INFO: Appended 247 lifetime works for Munkittrick, Kelly
+[2025-10-01 06:54:40,229] INFO: Appended 16 last-5y works for Munkittrick, Kelly
+[2025-10-01 06:54:40,229] INFO: Processing Petersen, Lars (https://openalex.org/A5108618818)
+[2025-10-01 06:54:40,229] INFO: OpenAlex fetch for https://openalex.org/A5108618818 (last 5 years >= 2021)
+[2025-10-01 06:54:40,230] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:40,344] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5108618818&per-page=200&cursor=%2A HTTP/1.1" 200 38916
+[2025-10-01 06:54:40,389] DEBUG: Fetched 16 results at cursor '*'
+[2025-10-01 06:54:40,390] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:40,503] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5108618818&per-page=200&cursor=Ils1OS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1NTMyMjU5MjcnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:40,504] DEBUG: Fetched 0 results at cursor 'Ils1OS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1NTMyMjU5MjcnXSI='
+[2025-10-01 06:54:40,534] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:40,550] INFO: Appended 16 lifetime works for Petersen, Lars
+[2025-10-01 06:54:40,553] INFO: Appended 1 last-5y works for Petersen, Lars
+[2025-10-01 06:54:40,553] INFO: Processing Polvi, Elizabeth (https://openalex.org/A5027504302)
+[2025-10-01 06:54:40,553] INFO: OpenAlex fetch for https://openalex.org/A5027504302 (last 5 years >= 2021)
+[2025-10-01 06:54:40,554] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:40,678] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5027504302&per-page=200&cursor=%2A HTTP/1.1" 200 77665
+[2025-10-01 06:54:40,731] DEBUG: Fetched 21 results at cursor '*'
+[2025-10-01 06:54:40,745] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:40,860] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5027504302&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTkxNDg3MDAnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:40,862] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTkxNDg3MDAnXSI='
+[2025-10-01 06:54:40,917] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:40,924] INFO: Appended 21 lifetime works for Polvi, Elizabeth
+[2025-10-01 06:54:40,927] INFO: Appended 4 last-5y works for Polvi, Elizabeth
+[2025-10-01 06:54:40,927] INFO: Processing Prenner, Elmar Josef (https://openalex.org/A5080622790)
+[2025-10-01 06:54:40,927] INFO: OpenAlex fetch for https://openalex.org/A5080622790 (last 5 years >= 2021)
+[2025-10-01 06:54:40,928] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:41,081] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5080622790&per-page=200&cursor=%2A HTTP/1.1" 200 256555
+[2025-10-01 06:54:41,192] DEBUG: Fetched 115 results at cursor '*'
+[2025-10-01 06:54:41,193] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:41,300] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5080622790&per-page=200&cursor=Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMjI2MTcxNjUnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:41,301] DEBUG: Fetched 0 results at cursor 'Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMjI2MTcxNjUnXSI='
+[2025-10-01 06:54:41,404] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:41,419] INFO: Appended 115 lifetime works for Prenner, Elmar Josef
+[2025-10-01 06:54:41,423] INFO: Appended 25 last-5y works for Prenner, Elmar Josef
+[2025-10-01 06:54:41,423] INFO: Processing Ro, Dae-Kyun (https://openalex.org/A5027297591)
+[2025-10-01 06:54:41,423] INFO: OpenAlex fetch for https://openalex.org/A5027297591 (last 5 years >= 2021)
+[2025-10-01 06:54:41,424] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:41,581] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5027297591&per-page=200&cursor=%2A HTTP/1.1" 200 241066
+[2025-10-01 06:54:41,690] DEBUG: Fetched 77 results at cursor '*'
+[2025-10-01 06:54:41,691] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:41,799] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5027297591&per-page=200&cursor=Ils1Ny4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyODkwNzEyNTUnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:41,801] DEBUG: Fetched 0 results at cursor 'Ils1Ny4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyODkwNzEyNTUnXSI='
+[2025-10-01 06:54:41,917] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:41,936] INFO: Appended 77 lifetime works for Ro, Dae-Kyun
+[2025-10-01 06:54:41,940] INFO: Appended 25 last-5y works for Ro, Dae-Kyun
+[2025-10-01 06:54:41,940] INFO: Processing Robinson, Eve (https://openalex.org/A5031130984)
+[2025-10-01 06:54:41,940] INFO: OpenAlex fetch for https://openalex.org/A5031130984 (last 5 years >= 2021)
+[2025-10-01 06:54:41,941] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:42,061] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5031130984&per-page=200&cursor=%2A HTTP/1.1" 200 55274
+[2025-10-01 06:54:42,110] DEBUG: Fetched 20 results at cursor '*'
+[2025-10-01 06:54:42,111] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:42,228] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5031130984&per-page=200&cursor=Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0MDQwOTcnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:42,229] DEBUG: Fetched 0 results at cursor 'Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0MDQwOTcnXSI='
+[2025-10-01 06:54:42,274] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:42,284] INFO: Appended 20 lifetime works for Robinson, Eve
+[2025-10-01 06:54:42,287] INFO: Appended 5 last-5y works for Robinson, Eve
+[2025-10-01 06:54:42,287] INFO: Processing Rogers, Sean (https://openalex.org/A5045680634)
+[2025-10-01 06:54:42,287] INFO: OpenAlex fetch for https://openalex.org/A5045680634 (last 5 years >= 2021)
+[2025-10-01 06:54:42,288] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:42,899] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5045680634&per-page=200&cursor=%2A HTTP/1.1" 200 397932
+[2025-10-01 06:54:43,037] DEBUG: Fetched 121 results at cursor '*'
+[2025-10-01 06:54:43,038] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:43,161] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5045680634&per-page=200&cursor=Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQwNjY4MjInXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:43,162] DEBUG: Fetched 0 results at cursor 'Ils1OC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQwNjY4MjInXSI='
+[2025-10-01 06:54:43,345] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:43,361] INFO: Appended 121 lifetime works for Rogers, Sean
+[2025-10-01 06:54:43,366] INFO: Appended 32 last-5y works for Rogers, Sean
+[2025-10-01 06:54:43,366] INFO: Processing Ruckstuhl, Kathreen (https://openalex.org/A5008482024)
+[2025-10-01 06:54:43,366] INFO: OpenAlex fetch for https://openalex.org/A5008482024 (last 5 years >= 2021)
+[2025-10-01 06:54:43,367] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:43,521] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5008482024&per-page=200&cursor=%2A HTTP/1.1" 200 289301
+[2025-10-01 06:54:43,625] DEBUG: Fetched 116 results at cursor '*'
+[2025-10-01 06:54:43,626] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:43,738] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5008482024&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0OTI3OTYnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:43,739] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQ0OTI3OTYnXSI='
+[2025-10-01 06:54:43,862] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:43,885] INFO: Appended 116 lifetime works for Ruckstuhl, Kathreen
+[2025-10-01 06:54:43,890] INFO: Appended 27 last-5y works for Ruckstuhl, Kathreen
+[2025-10-01 06:54:43,890] INFO: Processing Samuel, Marcus (https://openalex.org/A5000532437)
+[2025-10-01 06:54:43,890] INFO: OpenAlex fetch for https://openalex.org/A5000532437 (last 5 years >= 2021)
+[2025-10-01 06:54:43,891] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:44,043] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5000532437&per-page=200&cursor=%2A HTTP/1.1" 200 212435
+[2025-10-01 06:54:44,159] DEBUG: Fetched 78 results at cursor '*'
+[2025-10-01 06:54:44,160] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:44,275] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5000532437&per-page=200&cursor=Ils1Ny4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTE4MTU0NTEnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:44,276] DEBUG: Fetched 0 results at cursor 'Ils1Ny4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTE4MTU0NTEnXSI='
+[2025-10-01 06:54:44,392] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:44,408] INFO: Appended 78 lifetime works for Samuel, Marcus
+[2025-10-01 06:54:44,412] INFO: Appended 18 last-5y works for Samuel, Marcus
+[2025-10-01 06:54:44,412] INFO: Processing Shemanko, Carrie Simone (https://openalex.org/A5013092722)
+[2025-10-01 06:54:44,412] INFO: OpenAlex fetch for https://openalex.org/A5013092722 (last 5 years >= 2021)
+[2025-10-01 06:54:44,413] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:44,550] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5013092722&per-page=200&cursor=%2A HTTP/1.1" 200 128054
+[2025-10-01 06:54:44,631] DEBUG: Fetched 52 results at cursor '*'
+[2025-10-01 06:54:44,632] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:44,751] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5013092722&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTc5ODU1NjInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:44,753] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTc5ODU1NjInXSI='
+[2025-10-01 06:54:44,811] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:44,824] INFO: Appended 52 lifetime works for Shemanko, Carrie Simone
+[2025-10-01 06:54:44,828] INFO: Appended 19 last-5y works for Shemanko, Carrie Simone
+[2025-10-01 06:54:44,828] INFO: Processing Summers, Mindi (https://openalex.org/A5005216717)
+[2025-10-01 06:54:44,828] INFO: OpenAlex fetch for https://openalex.org/A5005216717 (last 5 years >= 2021)
+[2025-10-01 06:54:44,829] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:44,955] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5005216717&per-page=200&cursor=%2A HTTP/1.1" 200 84852
+[2025-10-01 06:54:45,012] DEBUG: Fetched 31 results at cursor '*'
+[2025-10-01 06:54:45,013] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:45,132] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5005216717&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxOTc0OTYxMDcnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:45,134] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxOTc0OTYxMDcnXSI='
+[2025-10-01 06:54:45,201] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:45,211] INFO: Appended 31 lifetime works for Summers, Mindi
+[2025-10-01 06:54:45,214] INFO: Appended 11 last-5y works for Summers, Mindi
+[2025-10-01 06:54:45,214] INFO: Processing Theodor, Jessica (https://openalex.org/A5034107669)
+[2025-10-01 06:54:45,214] INFO: OpenAlex fetch for https://openalex.org/A5034107669 (last 5 years >= 2021)
+[2025-10-01 06:54:45,215] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:45,357] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5034107669&per-page=200&cursor=%2A HTTP/1.1" 200 178503
+[2025-10-01 06:54:45,444] DEBUG: Fetched 80 results at cursor '*'
+[2025-10-01 06:54:45,445] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:45,562] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5034107669&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTg0NzUyNzAnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:45,564] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTg0NzUyNzAnXSI='
+[2025-10-01 06:54:45,655] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:45,667] INFO: Appended 80 lifetime works for Theodor, Jessica
+[2025-10-01 06:54:45,670] INFO: Appended 25 last-5y works for Theodor, Jessica
+[2025-10-01 06:54:45,670] INFO: Processing Tieleman, Peter (https://openalex.org/A5034269087)
+[2025-10-01 06:54:45,670] INFO: OpenAlex fetch for https://openalex.org/A5034269087 (last 5 years >= 2021)
+[2025-10-01 06:54:45,671] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:45,799] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5034269087&per-page=200&cursor=%2A HTTP/1.1" 200 77740
+[2025-10-01 06:54:45,856] DEBUG: Fetched 52 results at cursor '*'
+[2025-10-01 06:54:45,857] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:45,974] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5034269087&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzIwMDQ1NTQnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:54:45,975] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzIwMDQ1NTQnXSI='
+[2025-10-01 06:54:46,012] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:46,022] INFO: Appended 52 lifetime works for Tieleman, Peter
+[2025-10-01 06:54:46,026] INFO: Appended 19 last-5y works for Tieleman, Peter
+[2025-10-01 06:54:46,026] INFO: Processing Vamosi, Jana (https://openalex.org/A5073325578)
+[2025-10-01 06:54:46,026] INFO: OpenAlex fetch for https://openalex.org/A5073325578 (last 5 years >= 2021)
+[2025-10-01 06:54:46,027] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:46,172] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5073325578&per-page=200&cursor=%2A HTTP/1.1" 200 272172
+[2025-10-01 06:54:46,277] DEBUG: Fetched 111 results at cursor '*'
+[2025-10-01 06:54:46,278] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:46,395] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5073325578&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQxODQ0MDgnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:46,396] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQxODQ0MDgnXSI='
+[2025-10-01 06:54:46,508] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:46,524] INFO: Appended 111 lifetime works for Vamosi, Jana
+[2025-10-01 06:54:46,528] INFO: Appended 33 last-5y works for Vamosi, Jana
+[2025-10-01 06:54:46,528] INFO: Processing Vamosi, Steven (https://openalex.org/A5007215493)
+[2025-10-01 06:54:46,528] INFO: OpenAlex fetch for https://openalex.org/A5007215493 (last 5 years >= 2021)
+[2025-10-01 06:54:46,529] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:46,668] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5007215493&per-page=200&cursor=%2A HTTP/1.1" 200 208337
+[2025-10-01 06:54:46,767] DEBUG: Fetched 89 results at cursor '*'
+[2025-10-01 06:54:46,768] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:46,885] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5007215493&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3NjcxNjM2MDAnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:46,886] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3NjcxNjM2MDAnXSI='
+[2025-10-01 06:54:46,994] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:47,009] INFO: Appended 89 lifetime works for Vamosi, Steven
+[2025-10-01 06:54:47,012] INFO: Appended 9 last-5y works for Vamosi, Steven
+[2025-10-01 06:54:47,012] INFO: Processing Vijayan, Matt (Mathilakath) (https://openalex.org/A5022758375)
+[2025-10-01 06:54:47,012] INFO: OpenAlex fetch for https://openalex.org/A5022758375 (last 5 years >= 2021)
+[2025-10-01 06:54:47,013] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:47,241] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5022758375&per-page=200&cursor=%2A HTTP/1.1" 200 455198
+[2025-10-01 06:54:47,405] DEBUG: Fetched 188 results at cursor '*'
+[2025-10-01 06:54:47,406] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:47,834] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5022758375&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQyNjExNjgnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:47,836] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTQyNjExNjgnXSI='
+[2025-10-01 06:54:48,011] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:48,033] INFO: Appended 188 lifetime works for Vijayan, Matt (Mathilakath)
+[2025-10-01 06:54:48,036] INFO: Appended 31 last-5y works for Vijayan, Matt (Mathilakath)
+[2025-10-01 06:54:48,037] INFO: Processing Wildering, Willem (https://openalex.org/A5067187666)
+[2025-10-01 06:54:48,037] INFO: OpenAlex fetch for https://openalex.org/A5067187666 (last 5 years >= 2021)
+[2025-10-01 06:54:48,038] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:48,173] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5067187666&per-page=200&cursor=%2A HTTP/1.1" 200 125727
+[2025-10-01 06:54:48,257] DEBUG: Fetched 40 results at cursor '*'
+[2025-10-01 06:54:48,258] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:48,373] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5067187666&per-page=200&cursor=Ils2My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNDQyMzkyNjInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:48,375] DEBUG: Fetched 0 results at cursor 'Ils2My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNDQyMzkyNjInXSI='
+[2025-10-01 06:54:48,430] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:48,446] INFO: Appended 40 lifetime works for Wildering, Willem
+[2025-10-01 06:54:48,448] INFO: Appended 1 last-5y works for Wildering, Willem
+[2025-10-01 06:54:48,448] INFO: Processing Wrona, Frederick John (https://openalex.org/A5081438881)
+[2025-10-01 06:54:48,449] INFO: OpenAlex fetch for https://openalex.org/A5081438881 (last 5 years >= 2021)
+[2025-10-01 06:54:48,450] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:48,660] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5081438881&per-page=200&cursor=%2A HTTP/1.1" 200 277647
+[2025-10-01 06:54:48,776] DEBUG: Fetched 137 results at cursor '*'
+[2025-10-01 06:54:48,777] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:48,899] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5081438881&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3NzMwMTQ0NzEnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:48,900] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3NzMwMTQ0NzEnXSI='
+[2025-10-01 06:54:49,025] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:49,042] INFO: Appended 137 lifetime works for Wrona, Frederick John
+[2025-10-01 06:54:49,045] INFO: Appended 9 last-5y works for Wrona, Frederick John
+[2025-10-01 06:54:49,045] INFO: Processing Yeaman, Samuel (https://openalex.org/A5091612127)
+[2025-10-01 06:54:49,045] INFO: OpenAlex fetch for https://openalex.org/A5091612127 (last 5 years >= 2021)
+[2025-10-01 06:54:49,046] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:49,662] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5091612127&per-page=200&cursor=%2A HTTP/1.1" 200 355919
+[2025-10-01 06:54:49,795] DEBUG: Fetched 114 results at cursor '*'
+[2025-10-01 06:54:49,796] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:49,913] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5091612127&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTI4ODA3NDgnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:49,914] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTI4ODA3NDgnXSI='
+[2025-10-01 06:54:50,071] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:50,091] INFO: Appended 114 lifetime works for Yeaman, Samuel
+[2025-10-01 06:54:50,096] INFO: Appended 52 last-5y works for Yeaman, Samuel
+[2025-10-01 06:54:50,097] INFO: Processing Zardini Buzatto, Adriana (https://openalex.org/A5082325988)
+[2025-10-01 06:54:50,097] INFO: OpenAlex fetch for https://openalex.org/A5082325988 (last 5 years >= 2021)
+[2025-10-01 06:54:50,098] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:50,229] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5082325988&per-page=200&cursor=%2A HTTP/1.1" 200 68200
+[2025-10-01 06:54:50,285] DEBUG: Fetched 23 results at cursor '*'
+[2025-10-01 06:54:50,286] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:50,395] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5082325988&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzYyNTE5NTInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:50,397] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzYyNTE5NTInXSI='
+[2025-10-01 06:54:50,441] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:50,455] INFO: Appended 23 lifetime works for Zardini Buzatto, Adriana
+[2025-10-01 06:54:50,459] INFO: Appended 14 last-5y works for Zardini Buzatto, Adriana
+[2025-10-01 06:54:50,459] INFO: Processing Zaremberg, Vanina (https://openalex.org/A5061166792)
+[2025-10-01 06:54:50,460] INFO: OpenAlex fetch for https://openalex.org/A5061166792 (last 5 years >= 2021)
+[2025-10-01 06:54:50,461] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:50,609] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5061166792&per-page=200&cursor=%2A HTTP/1.1" 200 240603
+[2025-10-01 06:54:50,719] DEBUG: Fetched 75 results at cursor '*'
+[2025-10-01 06:54:50,720] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:50,834] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5061166792&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI2MjI3MDU0MTMnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:50,835] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI2MjI3MDU0MTMnXSI='
+[2025-10-01 06:54:50,980] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:50,993] INFO: Appended 75 lifetime works for Zaremberg, Vanina
+[2025-10-01 06:54:50,997] INFO: Appended 22 last-5y works for Zaremberg, Vanina
+[2025-10-01 06:54:50,997] INFO: Processing Zimmerly, Steven (https://openalex.org/A5081415562)
+[2025-10-01 06:54:50,997] INFO: OpenAlex fetch for https://openalex.org/A5081415562 (last 5 years >= 2021)
+[2025-10-01 06:54:50,998] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:51,117] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5081415562&per-page=200&cursor=%2A HTTP/1.1" 200 102492
+[2025-10-01 06:54:51,185] DEBUG: Fetched 44 results at cursor '*'
+[2025-10-01 06:54:51,187] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:51,304] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5081415562&per-page=200&cursor=Ils1OS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1OTQxMjczODInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:51,306] DEBUG: Fetched 0 results at cursor 'Ils1OS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1OTQxMjczODInXSI='
+[2025-10-01 06:54:51,352] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:51,363] INFO: Appended 44 lifetime works for Zimmerly, Steven
+[2025-10-01 06:54:51,363] INFO: No last-5y works for Zimmerly, Steven
+[2025-10-01 06:54:51,363] INFO: Processing Addicott, John (nan)
+[2025-10-01 06:54:51,363] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:51,364] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:51,477] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:51,478] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:51,479] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:51,482] INFO: No lifetime works for Addicott, John
+[2025-10-01 06:54:51,482] INFO: No last-5y works for Addicott, John
+[2025-10-01 06:54:51,482] INFO: Processing Addy, Heather (nan)
+[2025-10-01 06:54:51,482] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:51,483] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:51,603] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:51,603] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:51,604] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:51,605] INFO: No lifetime works for Addy, Heather
+[2025-10-01 06:54:51,605] INFO: No last-5y works for Addy, Heather
+[2025-10-01 06:54:51,605] INFO: Processing Barclay, Robert (https://openalex.org/A5033184624)
+[2025-10-01 06:54:51,605] INFO: OpenAlex fetch for https://openalex.org/A5033184624 (last 5 years >= 2021)
+[2025-10-01 06:54:51,606] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:51,783] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5033184624&per-page=200&cursor=%2A HTTP/1.1" 200 394270
+[2025-10-01 06:54:51,907] DEBUG: Fetched 192 results at cursor '*'
+[2025-10-01 06:54:51,908] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:52,022] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5033184624&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODgzNDEwOTEnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:54:52,024] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODgzNDEwOTEnXSI='
+[2025-10-01 06:54:52,266] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:52,282] INFO: Appended 192 lifetime works for Barclay, Robert
+[2025-10-01 06:54:52,286] INFO: Appended 12 last-5y works for Barclay, Robert
+[2025-10-01 06:54:52,286] INFO: Processing Bentley, Michael Martin (nan)
+[2025-10-01 06:54:52,286] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:52,287] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:52,572] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:52,573] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:52,573] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:52,582] INFO: No lifetime works for Bentley, Michael Martin
+[2025-10-01 06:54:52,582] INFO: No last-5y works for Bentley, Michael Martin
+[2025-10-01 06:54:52,582] INFO: Processing Bourne, George Bernard (nan)
+[2025-10-01 06:54:52,582] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:52,583] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:52,697] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:52,697] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:52,697] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:52,699] INFO: No lifetime works for Bourne, George Bernard
+[2025-10-01 06:54:52,699] INFO: No last-5y works for Bourne, George Bernard
+[2025-10-01 06:54:52,699] INFO: Processing Cavey, Michael John (nan)
+[2025-10-01 06:54:52,699] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:52,700] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:52,825] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:52,825] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:52,826] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:52,827] INFO: No lifetime works for Cavey, Michael John
+[2025-10-01 06:54:52,827] INFO: No last-5y works for Cavey, Michael John
+[2025-10-01 06:54:52,827] INFO: Processing Ceri, Howard (nan)
+[2025-10-01 06:54:52,827] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:52,828] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:52,950] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:52,950] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:52,951] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:52,952] INFO: No lifetime works for Ceri, Howard
+[2025-10-01 06:54:52,952] INFO: No last-5y works for Ceri, Howard
+[2025-10-01 06:54:52,953] INFO: Processing Chinnappa, Chendanda (nan)
+[2025-10-01 06:54:52,953] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:52,954] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:53,076] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:53,076] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:53,076] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:53,078] INFO: No lifetime works for Chinnappa, Chendanda
+[2025-10-01 06:54:53,078] INFO: No last-5y works for Chinnappa, Chendanda
+[2025-10-01 06:54:53,078] INFO: Processing Curry, Charles Lewis (nan)
+[2025-10-01 06:54:53,078] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:53,079] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:54,341] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:54,341] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:54,342] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:54,343] INFO: No lifetime works for Curry, Charles Lewis
+[2025-10-01 06:54:54,344] INFO: No last-5y works for Curry, Charles Lewis
+[2025-10-01 06:54:54,344] INFO: Processing Davies, Ronald Wallace (nan)
+[2025-10-01 06:54:54,344] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:54,345] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:54,584] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:54,585] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:54,585] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:54,586] INFO: No lifetime works for Davies, Ronald Wallace
+[2025-10-01 06:54:54,587] INFO: No last-5y works for Davies, Ronald Wallace
+[2025-10-01 06:54:54,587] INFO: Processing Edwards, Robert Allan (https://openalex.org/A5069240657)
+[2025-10-01 06:54:54,587] INFO: OpenAlex fetch for https://openalex.org/A5069240657 (last 5 years >= 2021)
+[2025-10-01 06:54:54,588] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:54,706] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5069240657&per-page=200&cursor=%2A HTTP/1.1" 200 17715
+[2025-10-01 06:54:54,732] DEBUG: Fetched 13 results at cursor '*'
+[2025-10-01 06:54:54,733] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:54,848] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5069240657&per-page=200&cursor=Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMzI5MDM5MDInXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:54:54,850] DEBUG: Fetched 0 results at cursor 'Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMzI5MDM5MDInXSI='
+[2025-10-01 06:54:54,868] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:54,873] INFO: Appended 13 lifetime works for Edwards, Robert Allan
+[2025-10-01 06:54:54,876] INFO: Appended 1 last-5y works for Edwards, Robert Allan
+[2025-10-01 06:54:54,876] INFO: Processing Gaucher, George Maurice (nan)
+[2025-10-01 06:54:54,876] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:54,877] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:54,989] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:54,989] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:54,989] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:54,991] INFO: No lifetime works for Gaucher, George Maurice
+[2025-10-01 06:54:54,991] INFO: No last-5y works for Gaucher, George Maurice
+[2025-10-01 06:54:54,991] INFO: Processing Gedamu, Lashitew (nan)
+[2025-10-01 06:54:54,991] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:54,992] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:56,796] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:56,797] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:56,797] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:56,798] INFO: No lifetime works for Gedamu, Lashitew
+[2025-10-01 06:54:56,799] INFO: No last-5y works for Gedamu, Lashitew
+[2025-10-01 06:54:56,799] INFO: Processing Harder, Lawrence (nan)
+[2025-10-01 06:54:56,799] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:56,800] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:57,039] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:57,040] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:57,040] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:57,041] INFO: No lifetime works for Harder, Lawrence
+[2025-10-01 06:54:57,042] INFO: No last-5y works for Harder, Lawrence
+[2025-10-01 06:54:57,042] INFO: Processing Huber, Reuben Eugene (nan)
+[2025-10-01 06:54:57,042] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:54:57,043] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:57,165] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:54:57,166] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:54:57,166] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:54:57,167] INFO: No lifetime works for Huber, Reuben Eugene
+[2025-10-01 06:54:57,168] INFO: No last-5y works for Huber, Reuben Eugene
+[2025-10-01 06:54:57,168] INFO: Processing Hynes, Michael (https://openalex.org/A5040299789)
+[2025-10-01 06:54:57,168] INFO: OpenAlex fetch for https://openalex.org/A5040299789 (last 5 years >= 2021)
+[2025-10-01 06:54:57,169] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:57,321] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5040299789&per-page=200&cursor=%2A HTTP/1.1" 200 219548
+[2025-10-01 06:54:57,436] DEBUG: Fetched 88 results at cursor '*'
+[2025-10-01 06:54:57,437] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:57,857] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5040299789&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzU0MDY3MjExJ10i HTTP/1.1" 200 140
+[2025-10-01 06:54:57,858] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzU0MDY3MjExJ10i'
+[2025-10-01 06:54:57,953] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:57,964] INFO: Appended 88 lifetime works for Hynes, Michael
+[2025-10-01 06:54:57,968] INFO: Appended 14 last-5y works for Hynes, Michael
+[2025-10-01 06:54:57,968] INFO: Processing Johnson, Edward Arnold (https://openalex.org/A5072804336)
+[2025-10-01 06:54:57,968] INFO: OpenAlex fetch for https://openalex.org/A5072804336 (last 5 years >= 2021)
+[2025-10-01 06:54:57,969] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:58,307] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5072804336&per-page=200&cursor=%2A HTTP/1.1" 200 464499
+[2025-10-01 06:54:58,472] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:54:58,473] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:58,645] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5072804336&per-page=200&cursor=Ils4Ny4wLCAxNiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cxNjk0ODg4MTInXSI%3D HTTP/1.1" 200 347599
+[2025-10-01 06:54:58,793] DEBUG: Fetched 200 results at cursor 'Ils4Ny4wLCAxNiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cxNjk0ODg4MTInXSI='
+[2025-10-01 06:54:58,795] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:58,923] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5072804336&per-page=200&cursor=Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1NDM3Njc4MjAnXSI%3D HTTP/1.1" 200 69665
+[2025-10-01 06:54:58,976] DEBUG: Fetched 56 results at cursor 'Ils2MC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI1NDM3Njc4MjAnXSI='
+[2025-10-01 06:54:58,977] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:59,093] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5072804336&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzk1MjM5MDM5J10i HTTP/1.1" 200 141
+[2025-10-01 06:54:59,094] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzk1MjM5MDM5J10i'
+[2025-10-01 06:54:59,752] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:54:59,788] INFO: Appended 456 lifetime works for Johnson, Edward Arnold
+[2025-10-01 06:54:59,792] INFO: Appended 22 last-5y works for Johnson, Edward Arnold
+[2025-10-01 06:54:59,792] INFO: Processing Kapoor, Manju (https://openalex.org/A5099938280)
+[2025-10-01 06:54:59,792] INFO: OpenAlex fetch for https://openalex.org/A5099938280 (last 5 years >= 2021)
+[2025-10-01 06:54:59,793] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:54:59,914] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5099938280&per-page=200&cursor=%2A HTTP/1.1" 200 2434
+[2025-10-01 06:54:59,915] DEBUG: Fetched 1 results at cursor '*'
+[2025-10-01 06:54:59,916] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,033] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5099938280&per-page=200&cursor=Ils2Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTU2ODQ2MjAnXSI%3D HTTP/1.1" 200 140
+[2025-10-01 06:55:00,035] DEBUG: Fetched 0 results at cursor 'Ils2Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTU2ODQ2MjAnXSI='
+[2025-10-01 06:55:00,046] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:00,070] INFO: Appended 1 lifetime works for Kapoor, Manju
+[2025-10-01 06:55:00,070] INFO: No last-5y works for Kapoor, Manju
+[2025-10-01 06:55:00,070] INFO: Processing Laishley, Edward James (nan)
+[2025-10-01 06:55:00,070] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:00,071] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,197] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:00,198] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:00,198] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:00,200] INFO: No lifetime works for Laishley, Edward James
+[2025-10-01 06:55:00,200] INFO: No last-5y works for Laishley, Edward James
+[2025-10-01 06:55:00,200] INFO: Processing Layzell, David (nan)
+[2025-10-01 06:55:00,200] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:00,201] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,318] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:00,318] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:00,319] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:00,320] INFO: No lifetime works for Layzell, David
+[2025-10-01 06:55:00,320] INFO: No last-5y works for Layzell, David
+[2025-10-01 06:55:00,321] INFO: Processing Linton, Larry Ralph (nan)
+[2025-10-01 06:55:00,321] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:00,322] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,449] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:00,449] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:00,450] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:00,451] INFO: No lifetime works for Linton, Larry Ralph
+[2025-10-01 06:55:00,451] INFO: No last-5y works for Linton, Larry Ralph
+[2025-10-01 06:55:00,451] INFO: Processing Lohmeier-Vogel, Elke Monika (nan)
+[2025-10-01 06:55:00,452] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:00,452] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,567] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:00,568] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:00,568] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:00,569] INFO: No lifetime works for Lohmeier-Vogel, Elke Monika
+[2025-10-01 06:55:00,570] INFO: No last-5y works for Lohmeier-Vogel, Elke Monika
+[2025-10-01 06:55:00,570] INFO: Processing McMahon, Brian Robert (nan)
+[2025-10-01 06:55:00,570] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:00,571] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,691] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:00,691] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:00,691] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:00,692] INFO: No lifetime works for McMahon, Brian Robert
+[2025-10-01 06:55:00,693] INFO: No last-5y works for McMahon, Brian Robert
+[2025-10-01 06:55:00,693] INFO: Processing Post, John Robert (https://openalex.org/A5060613378)
+[2025-10-01 06:55:00,693] INFO: OpenAlex fetch for https://openalex.org/A5060613378 (last 5 years >= 2021)
+[2025-10-01 06:55:00,694] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:00,878] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5060613378&per-page=200&cursor=%2A HTTP/1.1" 200 339466
+[2025-10-01 06:55:01,023] DEBUG: Fetched 145 results at cursor '*'
+[2025-10-01 06:55:01,024] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:01,392] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5060613378&per-page=200&cursor=Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzNDIzOTU0MjEnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:55:01,394] DEBUG: Fetched 0 results at cursor 'Ils1NC4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIzNDIzOTU0MjEnXSI='
+[2025-10-01 06:55:01,562] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:01,578] INFO: Appended 145 lifetime works for Post, John Robert
+[2025-10-01 06:55:01,582] INFO: Appended 12 last-5y works for Post, John Robert
+[2025-10-01 06:55:01,582] INFO: Processing Reid, Mary (nan)
+[2025-10-01 06:55:01,582] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:01,583] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:01,894] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:01,894] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:01,895] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:01,902] INFO: No lifetime works for Reid, Mary
+[2025-10-01 06:55:01,902] INFO: No last-5y works for Reid, Mary
+[2025-10-01 06:55:01,903] INFO: Processing Roche, Rodney Sylvester (nan)
+[2025-10-01 06:55:01,903] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:01,904] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:03,217] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:03,218] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:03,218] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:03,220] INFO: No lifetime works for Roche, Rodney Sylvester
+[2025-10-01 06:55:03,220] INFO: No last-5y works for Roche, Rodney Sylvester
+[2025-10-01 06:55:03,220] INFO: Processing Rosenberg, Herbert Irving (https://openalex.org/A5068345890)
+[2025-10-01 06:55:03,220] INFO: OpenAlex fetch for https://openalex.org/A5068345890 (last 5 years >= 2021)
+[2025-10-01 06:55:03,221] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:03,358] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5068345890&per-page=200&cursor=%2A HTTP/1.1" 200 188916
+[2025-10-01 06:55:03,435] DEBUG: Fetched 131 results at cursor '*'
+[2025-10-01 06:55:03,436] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:03,552] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5068345890&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNDYzNTY2MzAnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:55:03,554] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNDYzNTY2MzAnXSI='
+[2025-10-01 06:55:03,633] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:03,647] INFO: Appended 131 lifetime works for Rosenberg, Herbert Irving
+[2025-10-01 06:55:03,651] INFO: Appended 51 last-5y works for Rosenberg, Herbert Irving
+[2025-10-01 06:55:03,651] INFO: Processing Russell, Anthony Patrick (https://openalex.org/A5015608769)
+[2025-10-01 06:55:03,651] INFO: OpenAlex fetch for https://openalex.org/A5015608769 (last 5 years >= 2021)
+[2025-10-01 06:55:03,652] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:03,877] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5015608769&per-page=200&cursor=%2A HTTP/1.1" 200 479768
+[2025-10-01 06:55:04,024] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:55:04,025] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:04,155] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5015608769&per-page=200&cursor=Ils3NS4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNjQwMTU4OTMnXSI%3D HTTP/1.1" 200 84170
+[2025-10-01 06:55:04,213] DEBUG: Fetched 48 results at cursor 'Ils3NS4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwNjQwMTU4OTMnXSI='
+[2025-10-01 06:55:04,214] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:04,319] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5015608769&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTM5MTQxMjInXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:55:04,321] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTM5MTQxMjInXSI='
+[2025-10-01 06:55:04,713] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:04,737] INFO: Appended 248 lifetime works for Russell, Anthony Patrick
+[2025-10-01 06:55:04,741] INFO: Appended 25 last-5y works for Russell, Anthony Patrick
+[2025-10-01 06:55:04,741] INFO: Processing Sanderson, Kenneth Edwin (nan)
+[2025-10-01 06:55:04,741] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:04,742] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:04,862] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:04,862] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:04,863] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:04,878] INFO: No lifetime works for Sanderson, Kenneth Edwin
+[2025-10-01 06:55:04,878] INFO: No last-5y works for Sanderson, Kenneth Edwin
+[2025-10-01 06:55:04,878] INFO: Processing Stevenson, Kenneth James (nan)
+[2025-10-01 06:55:04,878] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:04,879] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:04,990] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:04,991] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:04,991] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:04,992] INFO: No lifetime works for Stevenson, Kenneth James
+[2025-10-01 06:55:04,993] INFO: No last-5y works for Stevenson, Kenneth James
+[2025-10-01 06:55:04,993] INFO: Processing Storey, Douglas Gordon (nan)
+[2025-10-01 06:55:04,993] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:04,994] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:05,126] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:05,127] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:05,127] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:05,129] INFO: No lifetime works for Storey, Douglas Gordon
+[2025-10-01 06:55:05,129] INFO: No last-5y works for Storey, Douglas Gordon
+[2025-10-01 06:55:05,129] INFO: Processing Syme, Douglas (https://openalex.org/A5012773550)
+[2025-10-01 06:55:05,129] INFO: OpenAlex fetch for https://openalex.org/A5012773550 (last 5 years >= 2021)
+[2025-10-01 06:55:05,130] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:05,289] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5012773550&per-page=200&cursor=%2A HTTP/1.1" 200 148025
+[2025-10-01 06:55:05,377] DEBUG: Fetched 60 results at cursor '*'
+[2025-10-01 06:55:05,378] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:05,496] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5012773550&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3Njk1OTQ2NjYnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:55:05,497] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI3Njk1OTQ2NjYnXSI='
+[2025-10-01 06:55:05,578] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:05,587] INFO: Appended 60 lifetime works for Syme, Douglas
+[2025-10-01 06:55:05,590] INFO: Appended 8 last-5y works for Syme, Douglas
+[2025-10-01 06:55:05,590] INFO: Processing Thorpe, Trevor Alleyne (nan)
+[2025-10-01 06:55:05,590] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:05,591] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:05,720] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:05,720] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:05,720] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:05,724] INFO: No lifetime works for Thorpe, Trevor Alleyne
+[2025-10-01 06:55:05,725] INFO: No last-5y works for Thorpe, Trevor Alleyne
+[2025-10-01 06:55:05,725] INFO: Processing Turner, Raymond J. (https://openalex.org/A5076324446)
+[2025-10-01 06:55:05,725] INFO: OpenAlex fetch for https://openalex.org/A5076324446 (last 5 years >= 2021)
+[2025-10-01 06:55:05,726] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:05,983] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5076324446&per-page=200&cursor=%2A HTTP/1.1" 200 576833
+[2025-10-01 06:55:06,146] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:55:06,147] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:06,323] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5076324446&per-page=200&cursor=Ils4OS4wLCAyNiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMDU0MzIxOTI1J10i HTTP/1.1" 200 418405
+[2025-10-01 06:55:06,486] DEBUG: Fetched 200 results at cursor 'Ils4OS4wLCAyNiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMDU0MzIxOTI1J10i'
+[2025-10-01 06:55:06,487] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:06,609] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5076324446&per-page=200&cursor=Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNDk0NjQzNDUnXSI%3D HTTP/1.1" 200 49094
+[2025-10-01 06:55:06,662] DEBUG: Fetched 41 results at cursor 'Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNDk0NjQzNDUnXSI='
+[2025-10-01 06:55:06,663] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:06,776] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5076324446&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTQ2NzE3MTUnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:55:06,777] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTQ2NzE3MTUnXSI='
+[2025-10-01 06:55:07,411] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:07,449] INFO: Appended 441 lifetime works for Turner, Raymond J.
+[2025-10-01 06:55:07,456] INFO: Appended 86 last-5y works for Turner, Raymond J.
+[2025-10-01 06:55:07,456] INFO: Processing Vize, Peter (https://openalex.org/A5064576180)
+[2025-10-01 06:55:07,456] INFO: OpenAlex fetch for https://openalex.org/A5064576180 (last 5 years >= 2021)
+[2025-10-01 06:55:07,457] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:07,626] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5064576180&per-page=200&cursor=%2A HTTP/1.1" 200 334938
+[2025-10-01 06:55:07,746] DEBUG: Fetched 121 results at cursor '*'
+[2025-10-01 06:55:07,747] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:07,863] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5064576180&per-page=200&cursor=Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDA0NDg3NzYnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:55:07,864] DEBUG: Fetched 0 results at cursor 'Ils1Ni4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDA0NDg3NzYnXSI='
+[2025-10-01 06:55:08,019] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:08,062] INFO: Appended 121 lifetime works for Vize, Peter
+[2025-10-01 06:55:08,067] INFO: Appended 20 last-5y works for Vize, Peter
+[2025-10-01 06:55:08,067] INFO: Processing Vogel, Hans J. (https://openalex.org/A5042190192)
+[2025-10-01 06:55:08,067] INFO: OpenAlex fetch for https://openalex.org/A5042190192 (last 5 years >= 2021)
+[2025-10-01 06:55:08,069] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:08,295] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042190192&per-page=200&cursor=%2A HTTP/1.1" 200 689333
+[2025-10-01 06:55:08,476] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:55:08,477] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:08,685] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042190192&per-page=200&cursor=Ils5NS4wLCA1OSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNTAxNDQ5NzU0J10i HTTP/1.1" 200 562101
+[2025-10-01 06:55:08,869] DEBUG: Fetched 200 results at cursor 'Ils5NS4wLCA1OSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNTAxNDQ5NzU0J10i'
+[2025-10-01 06:55:08,870] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:09,261] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042190192&per-page=200&cursor=Ils4OC4wLCAxOSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMDcwODEyOTIxJ10i HTTP/1.1" 200 469996
+[2025-10-01 06:55:09,397] DEBUG: Fetched 200 results at cursor 'Ils4OC4wLCAxOSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMDcwODEyOTIxJ10i'
+[2025-10-01 06:55:09,399] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:09,559] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042190192&per-page=200&cursor=Ils3My4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxOTQ1MzY4NDgnXSI%3D HTTP/1.1" 200 274420
+[2025-10-01 06:55:09,677] DEBUG: Fetched 200 results at cursor 'Ils3My4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxOTQ1MzY4NDgnXSI='
+[2025-10-01 06:55:09,679] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:09,816] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042190192&per-page=200&cursor=Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTE0MjAwMDgnXSI%3D HTTP/1.1" 200 138569
+[2025-10-01 06:55:09,892] DEBUG: Fetched 112 results at cursor 'Ils2MS4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTE0MjAwMDgnXSI='
+[2025-10-01 06:55:09,893] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:10,283] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5042190192&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTYyMzU0ODAnXSI%3D HTTP/1.1" 200 142
+[2025-10-01 06:55:10,285] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTYyMzU0ODAnXSI='
+[2025-10-01 06:55:12,145] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:12,229] INFO: Appended 912 lifetime works for Vogel, Hans J.
+[2025-10-01 06:55:12,237] INFO: Appended 88 last-5y works for Vogel, Hans J.
+[2025-10-01 06:55:12,237] INFO: Processing Voordouw, Gerrit (https://openalex.org/A5021145543)
+[2025-10-01 06:55:12,237] INFO: OpenAlex fetch for https://openalex.org/A5021145543 (last 5 years >= 2021)
+[2025-10-01 06:55:12,238] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:12,849] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5021145543&per-page=200&cursor=%2A HTTP/1.1" 200 525612
+[2025-10-01 06:55:13,012] DEBUG: Fetched 200 results at cursor '*'
+[2025-10-01 06:55:13,013] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:13,416] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5021145543&per-page=200&cursor=Ils4Mi4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyOTgzNjExNTMnXSI%3D HTTP/1.1" 200 162810
+[2025-10-01 06:55:13,501] DEBUG: Fetched 89 results at cursor 'Ils4Mi4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyOTgzNjExNTMnXSI='
+[2025-10-01 06:55:13,502] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:13,618] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2FA5021145543&per-page=200&cursor=Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTA2MDI5OTcnXSI%3D HTTP/1.1" 200 141
+[2025-10-01 06:55:13,619] DEBUG: Fetched 0 results at cursor 'Ils1My4wLCAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTA2MDI5OTcnXSI='
+[2025-10-01 06:55:13,995] DEBUG: Flattened df_all missing expected columns: ['host_venue__display_name', 'author_name', 'author_openalex_id']
+[2025-10-01 06:55:14,079] INFO: Appended 289 lifetime works for Voordouw, Gerrit
+[2025-10-01 06:55:14,082] INFO: Appended 3 last-5y works for Voordouw, Gerrit
+[2025-10-01 06:55:14,082] INFO: Processing Wilkens, Jerrel L. (nan)
+[2025-10-01 06:55:14,082] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:14,083] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:14,281] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:14,282] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:14,282] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:14,302] INFO: No lifetime works for Wilkens, Jerrel L.
+[2025-10-01 06:55:14,302] INFO: No last-5y works for Wilkens, Jerrel L.
+[2025-10-01 06:55:14,302] INFO: Processing Wong. Sui-Lam (nan)
+[2025-10-01 06:55:14,302] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:14,303] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:14,741] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:14,742] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:14,742] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:14,744] INFO: No lifetime works for Wong. Sui-Lam
+[2025-10-01 06:55:14,744] INFO: No last-5y works for Wong. Sui-Lam
+[2025-10-01 06:55:14,744] INFO: Processing Yeung, Edward Chee-Tak (nan)
+[2025-10-01 06:55:14,744] INFO: OpenAlex fetch for https://openalex.org/nan (last 5 years >= 2021)
+[2025-10-01 06:55:14,745] DEBUG: Starting new HTTPS connection (1): api.openalex.org:443
+[2025-10-01 06:55:15,927] DEBUG: https://api.openalex.org:443 "GET /works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A HTTP/1.1" 403 90
+[2025-10-01 06:55:15,928] ERROR: HTTP error from OpenAlex: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+Traceback (most recent call last):
+  File "/home/runner/work/UC_BioSci_Dashboard/UC_BioSci_Dashboard/etl/UC_BioSci_works.py", line 649, in fetch_author_works_filtered
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.openalex.org/works?filter=author.id%3Ahttps%3A%2F%2Fopenalex.org%2Fnan&per-page=200&cursor=%2A
+[2025-10-01 06:55:15,928] INFO: No works returned from OpenAlex for this author.
+[2025-10-01 06:55:15,930] INFO: No lifetime works for Yeung, Edward Chee-Tak
+[2025-10-01 06:55:15,930] INFO: No last-5y works for Yeung, Edward Chee-Tak
+[2025-10-01 06:55:15,930] INFO: Total skipped rows due to missing ID: 0
+[2025-10-01 06:55:21,684] INFO: Deduplicating (merge-aware + backfill) 3770 -> 1797 rows
+[2025-10-01 06:55:21,797] INFO: Deduplicated file written to data/openalex_all_authors_last5y_key_fields_dedup.csv
+[2025-10-01 06:55:23,653] INFO: [ok] Wrote per-author projection: data/openalex_all_authors_last5y_key_fields_dedup_per_author.csv (rows=1885)
