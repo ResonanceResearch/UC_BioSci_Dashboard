@@ -75,6 +75,7 @@
       initYearInputs();
       bindEvents();
       update();                 // IMPORTANT: forces initial render (fixes “needs a filter change”)
+      document.getElementById('loading-banner')?.classList.add('hidden');
       }).catch(err => console.error('Failed to load CSVs', err));
 
 
