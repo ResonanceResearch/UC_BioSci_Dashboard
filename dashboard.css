@@ -499,3 +499,19 @@ year-inputs { display: inline-flex; gap: 8px; align-items: center; }
 
 .meta-link { font-size: 0.5em; opacity: 0.8; }
 .meta-inline { display: inline; white-space: nowrap; }
+
+#loading-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--accent);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 9999;  /* ensures it's on top */
+}
+#loading-banner.hidden {
+  display: none;
+}
