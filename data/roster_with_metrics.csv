@@ -5,12 +5,12 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Hermann, Petronella (Petra)",hermann@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,https://openalex.org/A5065477883,https://orcid.org/0000-0003-0555-2325,Petra M. Hermann,17.0,25.0,34.0,737.0
 "Lein, Millerd (Ross)",mrlein@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,https://openalex.org/A5013565849,https://orcid.org/0000-0002-7672-9362,M. Ross Lein,20.0,31.0,52.0,1053.0
 "Mee, Jonathan",jamee@ucalgary.ca,Associate,Bio Sci,Research,Adjunct,https://openalex.org/A5076712876,https://orcid.org/0000-0003-0688-1390,Jonathan A. Mee,14.0,16.0,42.0,544.0
-"Moehrenschlager, Axel",amoehren@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,https://openalex.org/A5086209639,https://orcid.org/0000-0003-2789-0376,Axel Moehrenschlager,22.0,40.0,105.0,1645.0
+"Moehrenschlager, Axel",amoehren@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,https://openalex.org/A5086209639,https://orcid.org/0000-0003-2789-0376,Axel Moehrenschlager,22.0,40.0,105.0,1647.0
 "Musiani, Marco",mmusiani@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,https://openalex.org/A5089209732,,Marco Musiani,37.0,67.0,125.0,6693.0
 "Paul, Andrew",andrew.paul1@ucalgary.ca,Professor,Bio Sci,Research,Adjunct,https://openalex.org/A5084794761,,Andrew J. Paul,18.0,25.0,47.0,1881.0
 "Ayyaz, Arshad",arshad.ayyaz@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5069484372,https://orcid.org/0009-0004-8573-2012,Arshad Ayyaz,13.0,13.0,29.0,1129.0
 "Balser, Teresa",tcbalser@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5109335726,,Teri C. Balser,45.0,71.0,98.0,9775.0
-"Barst, Benjamin",benjamin.barst@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5067480948,https://orcid.org/0000-0003-0519-3377,Benjamin D. Barst,18.0,20.0,47.0,1034.0
+"Barst, Benjamin",benjamin.barst@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5067480948,https://orcid.org/0000-0003-0519-3377,Benjamin D. Barst,18.0,20.0,47.0,1040.0
 "Bodnar, Tamara",tamara.bodnar@ucalgary.ca,Assistant,Bio Sci,Research,Fulltime,https://openalex.org/A5010143483,https://orcid.org/0000-0002-7301-5700,Tamara S. Bodnar,15.0,21.0,50.0,714.0
 "Buret, Andre",aburet@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5082944188,https://orcid.org/0000-0002-1205-5936,André G. Buret,64.0,155.0,298.0,14095.0
 "Burkinshaw, Brianne",brianne.burkinsha1@ucalgary.ca,Assistant,Bio Sci,Teaching,Fulltime,https://openalex.org/A5073387012,,Brianne J. Burkinshaw,10.0,11.0,16.0,803.0
@@ -57,7 +57,7 @@ Name,Email,Level,RG1,Category,Appointment,OpenAlexID,ORCID,Display_name,H_index,
 "Samuel, Marcus",msamuel@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5000532437,https://orcid.org/0000-0002-3936-5563,Marcus A. Samuel,29.0,43.0,78.0,2768.0
 "Shemanko, Carrie Simone",shemanko@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5013092722,https://orcid.org/0000-0002-5260-6210,Carrie S. Shemanko,19.0,20.0,52.0,1409.0
 "Summers, Mindi",mindi.summers@ucalgary.ca,Professor,Bio Sci,Teaching,Fulltime,https://openalex.org/A5005216717,https://orcid.org/0000-0002-1703-4464,Mindi M. Summers,13.0,14.0,34.0,539.0
-"Theodor, Jessica",jtheodor@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5034107669,https://orcid.org/0000-0002-5159-7041,Jessica M. Theodor,23.0,35.0,80.0,2776.0
+"Theodor, Jessica",jtheodor@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5034107669,https://orcid.org/0000-0002-5159-7041,Jessica M. Theodor,23.0,35.0,80.0,2779.0
 "Tieleman, Peter",tieleman@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5034269087,,Peter Tieleman,4.0,2.0,52.0,274.0
 "Vamosi, Jana",jvamosi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5073325578,https://orcid.org/0000-0002-2376-0729,Jana C. Vamosi,39.0,58.0,112.0,9013.0
 "Vamosi, Steven",smvamosi@ucalgary.ca,Professor,Bio Sci,Research,Fulltime,https://openalex.org/A5007215493,https://orcid.org/0000-0003-3903-5000,Steven M. Vamosi,30.0,50.0,89.0,3288.0
