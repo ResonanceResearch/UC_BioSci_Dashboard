@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '39 6 * * *'  # Runs every day at 00:39 Calgary time during MDT (UTC-6). In MST (UTC-7), this is 23:39 previous day.
+    - cron: '39 6 * * 1'  # Runs every day at 00:39 Calgary time during MDT (UTC-6). In MST (UTC-7), this is 23:39 previous day.
   workflow_dispatch:
 
 jobs:
