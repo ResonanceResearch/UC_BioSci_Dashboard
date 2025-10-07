@@ -1,0 +1,539 @@
+/* === Theme tokens ======================================================= */
+:root {
+  --bg: #f6f8fb;
+  --panel: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --ring: #6366f1;
+  --accent: #3b82f6;       /* links, accents */
+  --accent-2: #10b981;     /* secondary accent for badges */
+  --chip: #eef2ff;         /* subtle chip background */
+  --chip-border: #c7d2fe;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-1: 0 2px 6px rgba(0,0,0,.06);
+  --shadow-2: 0 6px 18px rgba(0,0,0,.08);
+}
+
+/* Dark mode (auto) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1020;
+    --panel: #0f162d;
+    --text: #e5e7eb;
+    --muted: #94a3b8;
+    --border: #223056;
+    --ring: #8b95ff;
+    --accent: #93c5fd;
+    --accent-2: #34d399;
+    --chip: #111a34;
+    --chip-border: #31406d;
+    --shadow-1: 0 2px 6px rgba(0,0,0,.45);
+    --shadow-2: 0 6px 18px rgba(0,0,0,.5);
+  }
+}
+
+/* === Base =============================================================== */
+* { box-sizing: border-box; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  margin: 20px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  /* Fluid type scale: ~15–18px body size */
+  font-size: clamp(0.95rem, 0.85rem + 0.4vw, 1.1rem);
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Reduce motion respect */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* === Header ============================================================= */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.logo {
+  height: 96px;    /* adjust size */
+  width: auto;
+  border-radius: 6px; /* optional rounded corners */
+  
+}
+header .sub {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.link-btn {
+  background: #9BFADB;
+  color: #003333;   /* dark text for good contrast */
+  padding: 8px 14px;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.link-btn:hover {
+  background: #7ADFCB;  /* slightly darker on hover */
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* === Card =============================================================== */
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-1);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+.card:hover { box-shadow: var(--shadow-2); }
+
+/* === Filters ============================================================ */
+#filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 16px;
+  align-items: end;
+}
+#filters .filter-block.wide { grid-column: span 2; }
+#filters .actions {
+  grid-column: 1 / -1;
+  display: flex; gap: 12px; flex-wrap: wrap;
+}
+
+/* Responsive collapse */
+@media (max-width: 1200px) {
+  #filters { grid-template-columns: repeat(3, minmax(220px, 1fr)); }
+}
+@media (max-width: 900px) {
+  #filters { grid-template-columns: repeat(2, minmax(200px, 1fr)); }
+  #filters .filter-block.wide { grid-column: span 2; }
+}
+@media (max-width: 600px) {
+  #filters { grid-template-columns: 1fr; }
+  #filters .filter-block.wide { grid-column: span 1; }
+}
+
+/* Controls */
+label { display: block; font-weight: 600; margin-bottom: 6px; color: var(--muted); }
+select.multi, input[type="search"], input[type="number"] {
+  width: 100%;
+  min-height: 44px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--panel) 88%, var(--bg));
+  color: var(--text);
+  padding: 8px 10px;
+  transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+select.multi { min-height: 120px; }
+
+select.multi:hover, input:hover { border-color: color-mix(in srgb, var(--border), var(--ring) 30%); }
+select.multi:focus, input:focus {
+  border-color: var(--ring);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ring) 25%, transparent);
+}
+
+year-inputs { display: inline-flex; gap: 8px; align-items: center; }
+.year-inputs input { width: 110px; }
+
+/* Buttons */
+.clear-btn, .reset {
+  background: var(--chip);
+  border: 1px solid var(--chip-border);
+  color: #1e1b4b;
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: transform 120ms ease, background 160ms ease, border-color 160ms ease;
+}
+.clear-btn:hover, .reset:hover {
+  background: color-mix(in srgb, var(--chip), white 8%);
+  transform: translateY(-1px);
+}
+
+
+
+/* === Chart ============================================================= */
+.chart { /* update existing rule */
+  width: 100%;
+  height: 320px;           /* was 360px */
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.network-chart {
+  height: 360px;           /* specific override for the network */
+  overflow: visible;       /* NEW: prevent left-side label clipping */
+}
+
+.count { margin-top: 8px; color: var(--muted); font-size: 0.95rem; }
+
+/* === Table ============================================================= */
+#faculty-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-variant-numeric: tabular-nums;
+}
+#faculty-table thead th {
+  position: sticky; top: 0;
+  background: color-mix(in srgb, var(--panel), var(--bg) 12%);
+  z-index: 1;
+  border-bottom: 1px solid var(--border);
+}
+#faculty-table th, #faculty-table td {
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  text-align: left;
+}
+#faculty-table tbody tr:nth-child(odd) {
+  background: color-mix(in srgb, var(--panel), var(--bg) 6%);
+}
+#faculty-table tbody tr:hover {
+  background: color-mix(in srgb, var(--panel), var(--accent) 6%);
+  transition: background 140ms ease;
+}
+
+/* === Mini F/M/L sparkbars in Selected Faculty ============================ */
+.mini-fml { display:inline-block; width:90px; height:24px; vertical-align:middle; }
+.mini-fml svg { width:100%; height:24px; display:block; }
+.mini-fml .seg-first  { fill: color-mix(in srgb, var(--accent) 70%, white 0%); }
+.mini-fml .seg-middle { fill: #9ca3af; } /* neutral grey */
+.mini-fml .seg-last   { fill: color-mix(in srgb, var(--accent-2, #10b981) 70%, white 0%); }
+
+/* === Publications list ================================================== */
+#publications-list { margin: 0; padding: 0; list-style: none; }
+#publications-list li {
+  background: var(--panel);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid var(--border);
+  border-left: 6px solid var(--accent);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-1);
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+#publications-list li:hover { transform: translateY(-1px); box-shadow: var(--shadow-2); }
+
+/* Publication meta “chips” */
+.pub-meta {
+  display: inline-flex; flex-wrap: wrap; gap: 8px;
+  margin-top: 6px;
+}
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  font-size: 0.85rem;
+}
+.chip.secondary {
+  background: color-mix(in srgb, var(--accent-2) 12%, var(--panel));
+  border-color: color-mix(in srgb, var(--accent-2) 35%, var(--border));
+}
+
+/* Utility */
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+/* Added utility for muted text used by pair detail */
+.muted { color: var(--muted); }
+
+/* Layout container for Faculty + Publications panels */
+#faculty-publications {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* Make each panel take up half the width on large screens */
+#faculty-publications > section {
+  flex: 1;
+  min-width: 300px; /* prevents collapsing too small */
+}
+
+/* On smaller screens, stack them vertically */
+@media (max-width: 900px) {
+  #faculty-publications {
+    flex-direction: column;
+  }
+}
+
+/* === Charts row: bar chart + network side-by-side ====================== */
+.charts-row {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.charts-row .chart-card {
+  flex: 1;
+  min-width: 320px;
+}
+
+/* Stack on narrower screens */
+@media (max-width: 900px) {
+  .charts-row { flex-direction: column; }
+}
+
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+
+/* === Publications panel header + Export button ========================= */
+#publications-panel .panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+#publications-panel .panel-head h2 { margin: 0; }
+
+#jump-to-filters.btn-small {
+  font-size: 0.8em;
+  padding: 2px 6px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Generic button used for Export */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  box-shadow: var(--shadow-1);
+  transition: transform 120ms ease, background 160ms ease, border-color 160ms ease;
+}
+.btn:hover { transform: translateY(-1px); background: color-mix(in srgb, #fff, var(--bg) 6%); }
+.btn:focus { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+.btn-group { display: inline-flex; gap: 8px; align-items: center; }
+
+/* Export button variant */
+.btn.export {
+  background: var(--chip);
+  border-color: var(--chip-border);
+  color: #1e1b4b;
+}
+.btn.export:hover {
+  background: color-mix(in srgb, var(--chip), white 8%);
+}
+.btn:disabled,
+.btn.is-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+.chart { /* update existing rule */
+  width: 100%;
+  height: 320px;           /* was 360px */
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.network-chart {
+  height: 360px;           /* specific override for the network */
+}
+
+/* === Word Cloud panel ================================================ */
+#wordcloud-panel .panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+#wordcloud-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+#wordcloud-controls .toggle label {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+#wordcloud-controls .topn input {
+  width: 80px;
+  margin-left: 6px;
+}
+
+.wordcloud {
+  position: relative;
+  height: 320px; /* matches other charts; adjust if you like */
+  background: var(--panel);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .wordcloud { height: 280px; }
+}
+
+.info {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: var(--muted);
+  cursor: help;
+  border: 1px solid var(--muted);
+  border-radius: 50%;
+  padding: 0 4px;
+  line-height: 1;
+}
+.info:hover {
+  background: var(--chip);
+}
+
+
+/* 2×2 responsive grid for the four charts */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  grid-auto-rows: auto;    /* each row sizes to its own content */
+  gap: 20px;
+  align-items: start;      /* avoid stretching cards vertically */
+}
+
+/* Prevent any leftover rule from forcing later cards full-width */
+.chart-card{
+  grid-column: auto;     /* undo grid-column: 1 / -1 if present somewhere */
+  min-width: 0;          /* prevent overflow causing wrap */
+}
+
+/* Keep 1-column only on small screens */
+@media (max-width: 900px){
+  .charts-grid{ grid-template-columns: 1fr; }
+}
+
+/* Give the placeholder a height so it doesn't collapse oddly */
+#slot-6.chart{ min-height: 320px; }
+
+.charts-grid .chart-card { display: flex; flex-direction: column; }
+.charts-grid .chart { flex: 0 0 auto; }  /* preserve the 320px height */
+
+/* Stack to a single column on narrow screens */
+@media (max-width: 900px) {
+  .charts-grid { grid-template-columns: 1fr; }
+}
+
+/* Publications: active filters row */
+#active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 6px 0 10px 0;
+}
+#active-filters .chip {
+  background: var(--chip);
+  border-color: var(--chip-border);
+}
+#publications-panel .panel-head h2 {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+/* === PROMOTE: Reset to defaults button === */
+.btn-reset-prominent {
+  font-size: 0.95rem;            /* slightly larger text */
+  padding: 0.55rem 0.9rem;       /* bigger click target */
+  border-radius: 0.6rem;
+  font-weight: 600;
+  background: #ff6b6b;           /* prominent color */
+  color: #fff;
+  border: 1px solid #e35757;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+
+.btn-reset-prominent:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  background: #ff5a5a;
+}
+
+.btn-reset-prominent:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,107,107,0.35);
+}
+
+.btn-reset-prominent:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Optional: if you have a dark theme container */
+.dark .btn-reset-prominent {
+  background: #ff7b7b;
+  border-color: #ff7b7b;
+}
+
+.meta-link { font-size: 0.5em; opacity: 0.8; }
+.meta-inline { display: inline; white-space: nowrap; }
+
+#loading-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--accent);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 9999;  /* ensures it's on top */
+}
+#loading-banner.hidden {
+  display: none;
+}
+
